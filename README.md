@@ -1,1 +1,4 @@
-# android-consultant
+# НаПраво
+
+Ася Смирнова: UX
+Остальные: Kotlin
