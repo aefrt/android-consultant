@@ -13,13 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    /** Called when the user taps the Send button */
     fun sendMessage(view: View) {
-        val editText = findViewById<Button>(R.id.button1)
-        val message = editText.text.toString()
-        val intent = Intent(this, DisplayMessageActivity::class.java).apply {
-            putExtra("aaa", message)
-        }
+        intent = Intent(this, DisplayMessageActivity::class.java)
         startActivity(intent)
     }
 }

@@ -13,11 +13,7 @@ class DisplayMessageActivity : AppCompatActivity() {
         setContentView(R.layout.activity_display_message)
     }
     fun sendMessage2(view: View) {
-        val editText2 = findViewById<Button>(R.id.button2)
-        val message2 = editText2.text.toString()
-        val intent2 = Intent(this, DisplayInstruction1::class.java).apply {
-            putExtra("aaa", message2)
-        }
+        val intent2 = Intent(this, DisplayInstruction1::class.java)
         startActivity(intent2)
     }
 }
