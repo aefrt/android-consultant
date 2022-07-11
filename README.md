@@ -48,9 +48,9 @@
 
 В старом проекте:
 
-1. app -> New -> Activity -> Empty Activity, прописываем название Name => получаем xml и kt файлы
+1. app -> New -> Activity -> Empty Activity, прописываем название Name => получаем xml и kt файлы + соответствующие теги в AndroidManifest
 
-2. Заходим в что-то_там_main_activity.xml и перетаскиваем кнопку
+2. Заходим в что-то_там_main_activity.xml и перетаскиваем кнопку (вместо MainActivity может быть произвольная ParentActivity)
 
 3. Заходим в MainActivity.kt и пишем fun func_name { intent = Intent(this, Name::class.java)
         startActivity(intent) }
