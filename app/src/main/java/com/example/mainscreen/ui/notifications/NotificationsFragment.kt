@@ -1,5 +1,6 @@
 package com.example.mainscreen.ui.notifications
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -47,6 +48,10 @@ class NotificationsFragment : Fragment() {
         _binding = null
     }
 
+    fun police_start(view: View){
+        var intent = Intent(context, Policeissues::class.java)
+        startActivity(intent)
+    }
 
 
 
