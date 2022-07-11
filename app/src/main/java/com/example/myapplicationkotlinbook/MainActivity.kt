@@ -23,4 +23,8 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun open_extr(view: View) {
+        intent = Intent(this, Enstractions::class.java)
+        startActivity(intent)
+    }
 }
