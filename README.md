@@ -18,4 +18,4 @@
 
 1. VCS -> Git -> ...
 
-2. Загружать в ветку [`dev` ](https://github.com/aefrt/android-consultant/tree/dev) (В терминале `git clone https://github.com/aefrt/android-consultant/ -b dev`)
+2. Загружать в ветку [`dev` ](https://github.com/aefrt/android-consultant/tree/dev) (В терминале параметр `b`, например, `git clone https://github.com/aefrt/android-consultant/ -b dev`)
