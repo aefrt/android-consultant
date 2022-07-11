@@ -48,3 +48,9 @@ local.properties
 В новом:
 
 TODO()
+
+### Что делать с `unresolved Reference: R`
+
+1. Sync project with Gradle files
+
+И все )
