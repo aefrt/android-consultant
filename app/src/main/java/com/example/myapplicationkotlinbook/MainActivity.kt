@@ -17,4 +17,10 @@ class MainActivity : AppCompatActivity() {
         intent = Intent(this, DisplayMessageActivity::class.java)
         startActivity(intent)
     }
+
+    fun open_chat(view: View) {
+        intent = Intent(this, ChatWindow::class.java)
+        startActivity(intent)
+    }
+
 }
