@@ -40,7 +40,7 @@
 
 4. Update project
 
-local.properties
+5. Не забываем про local.properties
 
 #### Как создать Activity
 
