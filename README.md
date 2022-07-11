@@ -34,6 +34,8 @@ local.properties
 
 ### Как создать Activity
 
+В старом проекте:
+
 1. app -> New -> Activity -> Empty Activity, прописываем название Name => получаем xml и kt файлы
 
 2. Заходим в что-то_там_main_activity.xml и перетаскиваем кнопку
@@ -42,3 +44,7 @@ local.properties
         startActivity(intent) }
         
 4. Заходим обратно в xml и в кнопке прописываем android:onClick="func_name"
+
+В новом:
+
+TODO()
