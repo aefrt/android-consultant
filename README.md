@@ -22,13 +22,13 @@
 
 1. Создаем токен и логинимся в GitHub с его помощью в Android Studio (в разделе VCS)
 
-2. Загружаем из ветки [`dev` ](https://github.com/aefrt/android-consultant/tree/dev) (В терминале параметр `b`, например, `git clone https://github.com/aefrt/android-consultant/ -b dev`)
+2. Загружаем из ветки [`dev` ](https://github.com/aefrt/android-consultant/tree/dev) (В терминале параметр `b`, например, `git clone https://github.com/aefrt/android-consultant/ -b dev`) 
 
 3. Force commit + Force push 
 
 4. Update project
 
-Осталось Диму подключить
+local.properties
 
 ### Как создать Activity
 
