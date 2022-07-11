@@ -28,6 +28,15 @@
 
 4. Update project
 
-Сначала объединить в одно нашу работу (после презентации во вторник как пройденного этапа) и после работать уже через git (а то потом будет совсем проблематично все в одно собрать — когда будет не 3 файла уже, конфликты имен итд)
+Осталось Диму подключить
 
-https://stackoverflow.com/questions/16644946/how-do-you-synchronise-projects-to-github-with-android-studio
+### Как создать Activity
+
+1. app -> New -> Activity -> Empty Activity, прописываем название Name => получаем xml и kt файлы
+
+2. Заходим в что-то_там_main_activity.xml и перетаскиваем кнопку
+
+3. Заходим в MainActivity.kt и пишем fun func_name { intent = Intent(this, Name::class.java)
+        startActivity(intent) }
+        
+4. Заходим обратно в xml и в кнопке прописываем android:onClick="func_name"
