@@ -20,9 +20,11 @@
 
 ### Как настроить работу в GitHub
 
-1. VCS -> Git -> ...
+1. Создаем токен и логинимся в GitHub с его помощью в Android Studio (в разделе VCS)
 
-2. Загружать в ветку [`dev` ](https://github.com/aefrt/android-consultant/tree/dev) (В терминале параметр `b`, например, `git clone https://github.com/aefrt/android-consultant/ -b dev`)
+2. Загружаем из ветки [`dev` ](https://github.com/aefrt/android-consultant/tree/dev) (В терминале параметр `b`, например, `git clone https://github.com/aefrt/android-consultant/ -b dev`)
+
+3. Как нормально грузить туда еще напишу
 
 Сначала объединить в одно нашу работу (после презентации во вторник как пройденного этапа) и после работать уже через git (а то потом будет совсем проблематично все в одно собрать — когда будет не 3 файла уже, конфликты имен итд)
 
