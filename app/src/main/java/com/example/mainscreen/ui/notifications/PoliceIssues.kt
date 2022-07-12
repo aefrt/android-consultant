@@ -7,6 +7,6 @@ import com.example.mainscreen.R
 class PoliceIssues : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_policeissues)
+        setContentView(R.layout.activity_police_issues)
     }
 }
