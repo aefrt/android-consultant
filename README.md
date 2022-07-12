@@ -46,7 +46,7 @@
 
 #### Как создать Activity
 
-В старом проекте:
+Без Fragments:
 
 1. app -> New -> Activity -> Empty Activity, прописываем название Name => получаем xml и kt файлы + соответствующие теги в AndroidManifest
 
@@ -57,7 +57,7 @@
         
 4. Заходим обратно в xml и в кнопке прописываем android:onClick="func_name"
 
-В новом:
+В новом проекте мы используем Fragments, и здесь так нельзя.
 
 TODO()
 
