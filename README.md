@@ -59,9 +59,28 @@
 
 Во `Fragments` (Например, NotificationFragment.kt) так делать [нельзя](https://developer.android.com/guide/topics/ui/controls/button#ClickListener), поскольку в предыдущем варианте мы определяем [`Intent`](https://stackoverflow.com/questions/14139774/android-app-crashing-fragment-and-xml-onclick) между двумя `Activity`, здесь же получится так, что `Intent` определен между `Fragment` и `Activity` — в результате, как я понял, он пытается запустить кнопку, исходя из метода, который определен в соответствующем `Activity` как в бекенде XML-файла (а у нас его, кажется, вообще нет, ведь это `Fragment`, а не `Activity`), где определена кнопка, и не находит (но мб я не прав). 
 
-Как делать внутри `Fragment`:
+Как делать внутри `Fragment` на примере NotificationFragment:
 
-1. TODO()
+1. Добавляем у кнопки с полицией `id` `button_police`
+
+2. Создаем `Activity` PoliceIssues
+
+3. Заходим в класс нашего `Fragment` NotificationsFragment.kt
+
+4. Прописываем следующее как в [гайде](https://developer.android.com/guide/topics/ui/controls/button#ClickListener):
+
+```
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        var buttonPol = view.findViewById<Button>(R.id.button_police)
+
+        buttonPol.setOnClickListener {
+            val intent = Intent(context, PoliceIssues::class.java)
+            startActivity(intent)
+        }
+    }
+```
+
+5. Почему именно в onViewCreated? Это все как-то работает через жизненный цикл Fragment, [потом](https://stackoverflow.com/questions/25119090/difference-between-oncreateview-and-onviewcreated-in-fragment) разберусь, чек эту инфу также [здесь](https://developer.android.com/guide/fragments/lifecycle)
 
 #### Что делать с `unresolved Reference: R`
 
