@@ -44,9 +44,9 @@
 
 5. Не забываем про local.properties
 
-#### Как создать Activity
+#### Как создать кнопку
 
-Без Fragments:
+Внутри `Activity` (в прошлом проекте у нас были SomethingActivity.kt):
 
 1. app -> New -> Activity -> Empty Activity, прописываем название Name => получаем xml и kt файлы + соответствующие теги в AndroidManifest
 
@@ -57,9 +57,7 @@
         
 4. Заходим обратно в xml и в кнопке прописываем android:onClick="func_name"
 
-В новом проекте мы используем Fragments, и здесь так нельзя.
-
-TODO()
+Во `Fragments` (Например, NotificationFragment.kt) так делать [нельзя](https://developer.android.com/guide/topics/ui/controls/button#ClickListener), поскольку в предыдущем варианте мы определяем [`Intent`](https://stackoverflow.com/questions/14139774/android-app-crashing-fragment-and-xml-onclick) между двумя `Activity`, здесь же получится так, что `Intent` определен между `Fragment` и `Activity` — в результате, он пытается запустить кнопку, исходя из метода, который определен в соответствующем `Activity` как в бекенде XML-файла, где определена кнопка, и не находит (но мб я не прав). 
 
 #### Что делать с `unresolved Reference: R`
 
