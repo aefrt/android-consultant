@@ -17,7 +17,7 @@
             android:name=".Policeissues"
             android:exported="false" />
         <activity
-            android:name=".ui.notifications.Policeissues"
+            android:name=".ui.notifications.PoliceIssues"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"

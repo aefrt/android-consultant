@@ -20,19 +20,19 @@ android:paddingLeft="80dp"
 android:paddingRight="80dp"
     >
 
-<Button
-    android:text="Остановил полицейский"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingTop="40dp"
-    android:paddingLeft="40dp"
-    android:paddingRight="40dp"
-    android:paddingBottom="40dp"
-    android:onClick="police_start"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button_police"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingTop="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="40dp"
+        android:text="Остановил полицейский"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </RelativeLayout>
 
 <RelativeLayout
@@ -42,18 +42,18 @@ android:paddingTop="220dp"
 android:paddingLeft="80dp"
 android:paddingRight="80dp">
 
-<Button
-    android:text="Что делать при ДТП"
-    android:paddingTop="40dp"
-    android:paddingLeft="40dp"
-    android:paddingRight="40dp"
-    android:paddingBottom="40dp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingTop="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="40dp"
+        android:text="Что делать при ДТП"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </RelativeLayout>/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
