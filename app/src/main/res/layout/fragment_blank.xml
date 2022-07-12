@@ -7,6 +7,7 @@
     tools:context=".ui.fourth.BlankFragment">
 
     <ListView
+        android:id="@+id/messages_list"
         android:layout_width="407dp"
         android:layout_height="594dp"
         android:layout_marginBottom="8dp"
@@ -14,7 +15,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"/>
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInputEditText"
