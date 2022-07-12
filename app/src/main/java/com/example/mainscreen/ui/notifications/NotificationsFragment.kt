@@ -43,8 +43,6 @@ class NotificationsFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
         var buttonPol = view.findViewById<Button>(R.id.button_police)
 
         buttonPol.setOnClickListener {
