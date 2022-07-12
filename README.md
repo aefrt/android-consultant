@@ -59,6 +59,8 @@
         
 4. Заходим обратно в xml и в кнопке прописываем android:onClick="func_name"
 
+5. Теперь мы можем идти из `Activity1` в `Activity2`, но не наоборот. Чтобы было наоборот, см низ пункт 6.
+
 Во `Fragments` (Например, NotificationFragment.kt) так делать [нельзя](https://developer.android.com/guide/topics/ui/controls/button#ClickListener), поскольку в предыдущем варианте мы определяем [`Intent`](https://stackoverflow.com/questions/14139774/android-app-crashing-fragment-and-xml-onclick) между двумя `Activity`, здесь же получится так, что `Intent` определен между `Fragment` и `Activity` — в результате, как я понял, он пытается запустить кнопку, исходя из метода, который определен в соответствующем `Activity` как в бекенде XML-файла (а у нас его, кажется, вообще нет, ведь это `Fragment`, а не `Activity`), где определена кнопка, и не находит (но мб я не прав). 
 
 Как делать внутри `Fragment` на примере NotificationFragment:
@@ -83,6 +85,28 @@
 ```
 
 5. Почему именно в onViewCreated? Это все как-то работает через жизненный цикл Fragment, [потом](https://stackoverflow.com/questions/25119090/difference-between-oncreateview-and-onviewcreated-in-fragment) разберусь, чек эту инфу также [здесь](https://developer.android.com/guide/fragments/lifecycle), пока могу сказать, что один из трех основных методов `Fragment`.
+
+6. Дальше нужно добавить кнопку назад. Заходим в `AndroidManifest.xml`. При создании `Activity` туда добавились автоматически следующие строчки:
+
+```
+        <activity
+            android:name=".ui.notifications.PoliceIssues"
+            android:exported="false" />
+```
+
+Заменить их на (чтобы из `android:name` он вел в `android:parentActivityName`:
+
+```
+        <activity
+            android:name=".ui.notifications.PoliceIssues"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+```
 
 #### Что делать с `unresolved Reference: R`
 
