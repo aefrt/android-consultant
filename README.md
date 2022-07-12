@@ -82,7 +82,7 @@
     }
 ```
 
-5. Почему именно в onViewCreated? Это все как-то работает через жизненный цикл Fragment, [потом](https://stackoverflow.com/questions/25119090/difference-between-oncreateview-and-onviewcreated-in-fragment) разберусь, чек эту инфу также [здесь](https://developer.android.com/guide/fragments/lifecycle)
+5. Почему именно в onViewCreated? Это все как-то работает через жизненный цикл Fragment, [потом](https://stackoverflow.com/questions/25119090/difference-between-oncreateview-and-onviewcreated-in-fragment) разберусь, чек эту инфу также [здесь](https://developer.android.com/guide/fragments/lifecycle), пока могу сказать, что один из трех основных методов `Fragment`.
 
 #### Что делать с `unresolved Reference: R`
 
