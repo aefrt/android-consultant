@@ -8,8 +8,12 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.mainscreen.R
 import com.example.mainscreen.databinding.FragmentNotificationsBinding
+import com.example.mainscreen.ui.dashboard.Doc
+import com.example.mainscreen.ui.dashboard.DocAdapter
 
 class NotificationsFragment : Fragment() {
 
@@ -32,6 +36,7 @@ class NotificationsFragment : Fragment() {
 
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
 
+
         val root: View = binding.root
 
         return root
@@ -42,6 +47,7 @@ class NotificationsFragment : Fragment() {
         _binding = null
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         var buttonPol = view.findViewById<Button>(R.id.button_police)
 
@@ -50,5 +56,9 @@ class NotificationsFragment : Fragment() {
             startActivity(intent)
         }
     }
+
+
+
+
 
 }

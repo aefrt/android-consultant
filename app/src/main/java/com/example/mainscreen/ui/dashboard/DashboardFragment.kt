@@ -1,11 +1,14 @@
 package com.example.mainscreen.ui.dashboard
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
@@ -13,26 +16,31 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.mainscreen.R
 import com.example.mainscreen.databinding.FragmentDashboardBinding
 
-class DashboardFragment : Fragment() {
+
+class DashboardFragment : Fragment(){
 
     private var _binding: FragmentDashboardBinding? = null
 
     lateinit var v: View
     lateinit var recyclerView: RecyclerView
-    lateinit var button: Button
     private val adapter = DocAdapter()
     private val adapter2 = DocAdapter2()
     private val adapter3 = DocAdapter3()
     private val adapter4 = DocAdapter4()
-    private val imageIdList = listOf(
-        R.drawable.pattern,
-        R.drawable.pattern,
-        R.drawable.pattern,
-        R.drawable.pattern,
-        R.drawable.pattern,
-    )
 
-    private var index = 0
+    /*override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        adapter.attachDelegate(object : DocDelegate {
+            override fun openDoc() {
+                navigate()
+            }
+
+
+        })
+    }*/
+
+
+
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -88,12 +96,6 @@ class DashboardFragment : Fragment() {
         binding.apply {
             rcView.layoutManager = GridLayoutManager(context, 3)
             rcView.adapter = adapter
-            /*buttonAdd.setOnClickListener {
-                if (index > 4) index = 0
-                val doc = Doc(imageIdList[index], "$index")
-                adapter.addDoc(doc)
-                index++
-            }*/
         }
     }
 
@@ -103,17 +105,38 @@ class DashboardFragment : Fragment() {
             rcView2.adapter = adapter2
         }
     }
+
     private fun init3() {
         binding.apply {
             rcView3.layoutManager = GridLayoutManager(context, 3)
             rcView3.adapter = adapter3
         }
     }
+
     private fun init4() {
         binding.apply {
             rcView4.layoutManager = GridLayoutManager(context, 3)
             rcView4.adapter = adapter4
         }
+    }
+
+
+
+
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        adapter.attachDelegate(object : DocDelegate {
+            override fun openDoc() {
+                navigate()
+            }
+
+
+        })
+    }
+
+    fun navigate() {
+        val intent = Intent(context, DashboardNewPage::class.java)
+        startActivity(intent)
     }
 
 }
