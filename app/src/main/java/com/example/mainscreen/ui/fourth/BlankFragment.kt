@@ -6,10 +6,17 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RelativeLayout
 import com.example.mainscreen.BlankViewModel
 import com.example.mainscreen.R
+import com.firebase.ui.auth.AuthUI
+import com.google.android.material.snackbar.Snackbar
+import com.google.firebase.auth.FirebaseAuth
 
 class BlankFragment : Fragment() {
+
+    private var SIGN_IN_CODE = 1;
+    private lateinit var activity_main : RelativeLayout; // ???
 
     companion object {
         fun newInstance() = BlankFragment()
@@ -21,6 +28,19 @@ class BlankFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        // YouTube
+        // da blin: activity_main = findViewById() 9:50
+
+        if (FirebaseAuth.getInstance().currentUser == null) {
+            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(),
+                SIGN_IN_CODE);
+            print("b kkkk")
+        } else {
+            print("a kkkk") // а куда он принт сделает?
+            // Snackbar.make().show() // ???
+        }
+
+        // Been
         return inflater.inflate(R.layout.fragment_blank, container, false)
     }
 
