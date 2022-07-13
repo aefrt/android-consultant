@@ -13,4 +13,12 @@
         android:text="dfvdfbdfbdf"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="168dp"
+        android:layout_height="186dp"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="174dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

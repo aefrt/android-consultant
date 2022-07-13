@@ -21,9 +21,11 @@ android:paddingRight="80dp"
     >
 
     <Button
+
         android:id="@+id/button_police"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#03A9F4"
         android:onClick="police_start"
         android:paddingLeft="40dp"
         android:paddingTop="40dp"
@@ -46,6 +48,7 @@ android:paddingRight="80dp">
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#03A9F4"
         android:paddingLeft="40dp"
         android:paddingTop="40dp"
         android:paddingRight="40dp"
