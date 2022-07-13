@@ -12,6 +12,7 @@ import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mainscreen.R
 import com.example.mainscreen.databinding.FragmentDashboardBinding
@@ -65,6 +66,7 @@ class DashboardFragment : Fragment(){
 
         adapter2.addDoc(Doc(R.drawable.pattern, "Административные правонарушения"))
         adapter2.addDoc(Doc(R.drawable.pattern, "ПДД для велосипедистов"))
+        adapter2.addDoc(Doc(R.drawable.pattern, "Рубрикатор основных правовых понятий"))
 
         adapter3.addDoc(Doc(R.drawable.pattern, "Статья 1"))
         adapter3.addDoc(Doc(R.drawable.pattern, "Статья 2"))
@@ -94,28 +96,36 @@ class DashboardFragment : Fragment(){
 
     private fun init() {
         binding.apply {
-            rcView.layoutManager = GridLayoutManager(context, 3)
+            //rcView.layoutManager = GridLayoutManager(context, 3)
+            rcView.layoutManager = LinearLayoutManager(context)
+            rcView.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL ,false)
             rcView.adapter = adapter
         }
     }
 
     private fun init2() {
         binding.apply {
-            rcView2.layoutManager = GridLayoutManager(context, 3)
+            //rcView2.layoutManager = GridLayoutManager(context, 3)
+            rcView2.layoutManager = LinearLayoutManager(context)
+            rcView2.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL ,false)
             rcView2.adapter = adapter2
         }
     }
 
     private fun init3() {
         binding.apply {
-            rcView3.layoutManager = GridLayoutManager(context, 3)
+            //rcView3.layoutManager = GridLayoutManager(context, 3)
+            rcView3.layoutManager = LinearLayoutManager(context)
+            rcView3.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL ,false)
             rcView3.adapter = adapter3
         }
     }
 
     private fun init4() {
         binding.apply {
-            rcView4.layoutManager = GridLayoutManager(context, 3)
+            //rcView4.layoutManager = GridLayoutManager(context, 3)
+            rcView4.layoutManager = LinearLayoutManager(context)
+            rcView4.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL ,false)
             rcView4.adapter = adapter4
         }
     }
@@ -129,9 +139,23 @@ class DashboardFragment : Fragment(){
             override fun openDoc() {
                 navigate()
             }
-
-
         })
+        adapter2.attachDelegate(object : DocDelegate2 {
+            override fun openDoc() {
+                navigate()
+            }
+        })
+        adapter3.attachDelegate(object : DocDelegate3 {
+            override fun openDoc() {
+                navigate()
+            }
+        })
+        adapter4.attachDelegate(object : DocDelegate4 {
+            override fun openDoc() {
+                navigate()
+            }
+        })
+
     }
 
     fun navigate() {

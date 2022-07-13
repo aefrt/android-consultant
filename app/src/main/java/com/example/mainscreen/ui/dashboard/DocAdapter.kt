@@ -39,7 +39,7 @@ class DocAdapter: RecyclerView.Adapter<DocAdapter.DocHolder>(){
             im.setImageResource(doc.imageId)
             tvTitle.text = doc.title
             //new code
-            im.setOnClickListener {
+            description.setOnClickListener {
                 delegate?.openDoc()
                 //
             }
