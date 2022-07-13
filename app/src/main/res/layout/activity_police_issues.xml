@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -25,11 +25,11 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:layout_width="23dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/ic_item1" />
+                    app:srcCompat="@drawable/one" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -37,8 +37,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
-                    android:layout_weight="1"
-                    android:text="Остановитесь по требованию инспектора"
+                    android:text="Остановитесь по требованию инспектора."
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -68,8 +67,9 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
+                        android:text="Инспектор вправе остановить машину для проверки документов:"
                         android:textColor="@color/black"
-                        android:text="Инспектор вправе остановить машину для проверки документов:" />
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView5"
@@ -78,8 +78,10 @@
                         android:layout_marginLeft="26dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
+                        android:text="1. при наличии признаков нарушения безопасности дорожного движения;"
                         android:textColor="@color/black"
-                        android:text="1. при наличии признаков нарушения безопасности дорожного движения;"/>
+                        android:textStyle="bold" />
+
                     <TextView
                         android:id="@+id/textView6"
                         android:layout_width="match_parent"
@@ -87,25 +89,29 @@
                         android:layout_marginLeft="26dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
+                        android:text="2. в случае временного ограничения или запрещения движения;"
                         android:textColor="@color/black"
-                        android:text="2. в случае временного ограничения или запрещения движения;"/>
+                        android:textStyle="bold" />
+
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="26dp"
                         android:layout_marginRight="20dp"
-                        android:textColor="@color/black"
                         android:layout_weight="1"
-                        android:text="3. при иных подозрениях."/>
+                        android:text="3. при иных подозрениях."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
                     <TextView
                         android:id="@+id/textView8"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="50dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:text="За невыполнение законного требования инспектора остановиться предусмотрен штраф от 500 до 800 рублей. В таком случае сотрудник ГИББД либо передаст информацию о вашей машине на следующие посты ГИББД, либо догонит вас на патрульном автомобиле с выключенным проблесковым маяком(мигалкой)"/>
+                        android:text="За невыполнение законного требования инспектора остановиться предусмотрен штраф от 500 до 800 рублей. В таком случае сотрудник ГИББД либо передаст информацию о вашей машине на следующие посты ГИББД, либо догонит вас на патрульном автомобиле с выключенным проблесковым маяком(мигалкой)" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -115,8 +121,8 @@
 
                         <Button
                             android:id="@+id/button"
-                            android:layout_width="160dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="141dp"
+                            android:layout_height="38dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_weight="1"
@@ -127,14 +133,15 @@
 
                         <TextView
                             android:id="@+id/textView4"
-                            android:layout_width="185dp"
+                            android:layout_width="262dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginRight="20dp"
                             android:layout_weight="1"
                             android:background="#E1DEDE"
-                            android:text="Пункт 6.11 ПДД \nЧасть 2 Статьи 12.25 КоАП РФ" />
+                            android:text="Пункт 6.11 ПДД \nЧасть 2 Статьи 12.25 КоАП РФ"
+                            android:textColor="#3F51B5" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -147,11 +154,10 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/ic_item1" />
+                    android:id="@+id/imageView6"
+                    android:layout_width="23dp"
+                    android:layout_height="25dp"
+                    app:srcCompat="@drawable/two" />
 
                 <TextView
                     android:id="@+id/textView15"
@@ -160,7 +166,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
                     android:layout_weight="1"
-                    android:text="Остановитесь по требованию инспектора"
+                    android:text="Найдите свои документы."
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -190,18 +196,19 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:text="Инспектор вправе остановить машину для проверки документов:"
+                        android:text="Вы обязаны всегда иметь с собой: "
                         android:textColor="@color/black" />
 
                     <TextView
                         android:id="@+id/textView10"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="26dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:text="1. при наличии признаков нарушения безопасности дорожного движения;"
-                        android:textColor="@color/black" />
+                        android:text="1. регистрационные документы на машину (СТС);"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -210,44 +217,58 @@
                         android:layout_marginLeft="26dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:text="2. в случае временного ограничения или запрещения движения;"
-                        android:textColor="@color/black" />
+                        android:text="2. водительское удостоверение"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView12"
+                        android:layout_width="320dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:text="(либо временное разрешение на управление машиной);"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="26dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:text="3. при иных подозрениях."
-                        android:textColor="@color/black" />
+                        android:text="3. полис ОСАГО;"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/textView13"
+                        android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="50dp"
+                        android:layout_marginLeft="26dp"
                         android:layout_marginRight="20dp"
                         android:layout_weight="1"
-                        android:text="За невыполнение законного требования инспектора остановиться предусмотрен штраф от 500 до 800 рублей. В таком случае сотрудник ГИББД либо передаст информацию о вашей машине на следующие посты ГИББД, либо догонит вас на патрульном автомобиле с выключенным проблесковым маяком(мигалкой)" />
+                        android:text="4. автомобильную медицинскую аптечку, огнетушитель, знак аварийной остановки и светоотражающий жилет. За их отсутствие вас могут оштрафовать на 500 рублей или выдать предупреждение."
+                        android:textColor="@color/black"
+                        android:textStyle="normal" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="horizontal">
 
                         <Button
                             android:id="@+id/button2"
-                            android:layout_width="160dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="134dp"
+                            android:layout_height="36dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_weight="1"
                             android:background="@drawable/roundstyle"
-                            android:backgroundTint="#FFC107"
-                            android:text="МНЕ ВЫПИСЫВАЮТ ШТРАФ"
+                            android:backgroundTint="#E91E63"
+                            android:text="У МЕНЯ НЕТ ДОКУМЕНТОВ"
                             android:textColor="@color/black" />
 
                         <TextView
@@ -257,14 +278,480 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginRight="20dp"
-                            android:layout_weight="1"
                             android:background="#E1DEDE"
-                            android:text="Пункт 6.11 ПДД \nЧасть 2 Статьи 12.25 КоАП РФ" />
+                            android:text="Пункт 2.1.1 ПДД \nСтатья 12.3 КоАП РФ"
+                            android:textColor="#3F51B5" />
+
                     </LinearLayout>
 
                 </LinearLayout>
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="26dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/tree" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:text="Убедитесь, что это действительно инспектор "
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:background="#F33131" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="0dp"
+                        android:text="ГИБДД, а не мошенник."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0"
+                        android:text="Попросите его представиться, показать удостоверение и объяснить причину остановки, если он этого не сделал. "
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:text="Закон «О полиции» обязывает сотрудника при обращении к гражданину обязан назвать свою должность, звание, фамилию, по требованию показать служебное удостоверение, сказать причину и цель обращения."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="148dp"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:text="Закон «О полиции» обязывает сотрудника при обращении к гражданину обязан назвать свою должность, звание, фамилию, по требованию показать служебное удостоверение, сказать причину и цель обращения. В противном случае выполнять его требования вы не обязаны. Позвоните в 102 или 112 и сообщите о произошедшем."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="81dp"
+                        android:layout_weight="11"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="206dp"
+                            android:layout_height="57dp"
+                            app:srcCompat="@drawable/police" />
+
+                        <TextView
+                            android:id="@+id/textView26"
+                            android:layout_width="148dp"
+                            android:layout_height="39dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="0"
+                            android:background="#E1DEDE"
+                            android:text="Пункт 2.1.1 ПДД \nСтатья 12.3 КоАП РФ"
+                            android:textColor="#3F51B5" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/four" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:text="Остановитесь по требованию инспектора."
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:background="#F33131" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="20dp"
+                        android:text="По общему правилу вы не обязаны покидать машину. Инспектор может попросить вас выйти в случае наличия признаков опьянения, болезненного состояния, необходимости устранения технических неисправностей и в некоторых других случаях."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="183dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="#E1DEDE"
+                        android:text="Пункт 89 административного регламента"
+                        android:textColor="#3F51B5" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="21dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/five" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:text="Вы вправе снимать инспектора на видео."
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:background="#F33131" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Однако не стоит злоупотреблять съемкой и провоцировать конфликтную ситуацию. Если надо, снимайте, обратив внимание на номер нагрудного знака инспектора, это позволит идентифицировать конкретного сотрудника."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:text="За невыполнение законного требования инспектора остановиться предусмотрен  штраф от 500 до 800 рублей. В таком случае сотрудник ГИБДД либо передаст информацию о вашей машине на следующие посты ГИБДД, либо догонит вас на патрульном автомобиле с включенным проблесковым маяком (&quot;мигалкой&quot;)." />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="95dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button5"
+                            android:layout_width="134dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/roundstyle"
+                            android:backgroundTint="#FFC107"
+                            android:text="ПОЧЕМУ НЕ СТОИТ ПРЕДЛАГАТЬ ВЗЯТКУ"
+                            android:textColor="@color/black" />
+
+                        <Button
+                            android:id="@+id/button3"
+                            android:layout_width="159dp"
+                            android:layout_height="51dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/roundstyle"
+                            android:backgroundTint="#E91E63"
+                            android:text="ИНСПЕКТОР ТРЕБУЕТ ВЗЯТКУ"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:background="#E1DEDE"
+                            android:text="Статья 8 ФЗ &quot;О полиции&quot;"
+                            android:textColor="#3F51B5" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/six" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="448dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Что делать, если инспекор просит вас "
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:background="#F33131" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="0dp"
+                        android:text="открыть машину и багажник?"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Отличайте осмотр, досмотр и вскрытие."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="20dp"
+                        android:text="1. Осмотр — это визуальное обследование со стороны, его основаниями могут быть информация об использовании транспортного средства в противоправных целях, необходимость проверки номеров, перевозимого груза. По окончании составляется акт осмотра.\n2. Вскрытие проводится, если есть подозрения, что в транспортном средстве находятся без специального разрешения предметы или вещи, изъятые из оборота или ограниченные в обороте. \n3. Досмотр — обследование, проводимое без нарушения конструктивной целостности автомобиля для обнаружения орудий совершения либо предметов административного правонарушения. Это более серьезная процедура, требующая привлечения 2 понятых, либо применение видеозаписи. По окончании составляется протокол досмотра, либо вносится запись в протокол об административном правонарушении. Помните, что инспектор не может сам открывать двери и двигать предметы в транспортном средстве при досмотре."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/seven" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text="Помните о правах при осведетельствовании"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="6dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:background="#F33131" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="0dp"
+                        android:text="на состояние алкогольного опьянения."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Основанием полагать, что водитель находится в состоянии опьянения, является: запах алкоголя изо рта, неустойчивость позы и шаткость походки, нарушение речи, резкое изменение окраски кожных покровов лица, поведение, не соответствующее обстановке. Эти признаки являются исчерпывающими.\n\nОсвидетельствование проводится должностным лицом в присутствии двух понятых либо с применением видеозаписи. Алкотестер должен иметь пломбу, допустимое значение спирта составляет 0,16 миллиграммов на литр воздуха. "
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="183dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:background="#E1DEDE"
+                            android:text="Статься 27.12 КоАП РФ"
+                            android:textColor="#3F51B5" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="23dp"
+                android:layout_height="26dp"
+                app:srcCompat="@drawable/end" />
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
