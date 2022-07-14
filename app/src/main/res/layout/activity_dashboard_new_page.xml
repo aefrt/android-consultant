@@ -79,7 +79,8 @@
                     android:drawableTop="@drawable/ic_send"
                     android:paddingTop="10dp"
                     android:text="Отправить по почте"
-                    android:textSize="10sp" />
+                    android:textSize="10sp"
+                    android:onClick="navigate_to_mail"/>
 
                 <Button
                     android:id="@+id/button5"
