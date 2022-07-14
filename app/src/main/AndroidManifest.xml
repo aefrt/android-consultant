@@ -13,7 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
-        <!-- <activity
+        <activity
+            android:name=".ui.dashboard.Send_to_email"
+            android:parentActivityName=".ui.dashboard.DashboardNewPage">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <!--
+         <activity
             android:name=".Police_issues2"
             android:exported="false" />
         -->
@@ -26,7 +36,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".ui.notifications.PoliceIssues"
             android:parentActivityName=".MainActivity">
