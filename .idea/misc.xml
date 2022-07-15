@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_police_issues.xml" value="0.33" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/drawable/roundstyle.xml" value="0.198" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_nombertwo_call_police.xml" value="0.29936594202898553" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_nombertwo_moshennik.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_police_issues.xml" value="0.25" />
         <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_police_issues2.xml" value="0.1" />
         <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/fragment_notifications.xml" value="0.22" />
         <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/two_one.xml" value="0.20878623188405798" />
