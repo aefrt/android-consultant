@@ -14,6 +14,9 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".NombertwoMoshennik"
+            android:exported="false" />
+        <activity
             android:name=".ui.dashboard.Send_to_email"
             android:parentActivityName=".ui.dashboard.DashboardNewPage">
 
