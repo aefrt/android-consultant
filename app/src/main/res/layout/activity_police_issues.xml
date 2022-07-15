@@ -241,27 +241,31 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="83dp"
                         android:layout_weight="1"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:id="@+id/imageView13"
-                            android:layout_width="206dp"
-                            android:layout_height="57dp"
-                            app:srcCompat="@drawable/police" />
-
                         <Button
-                            android:id="@+id/button2"
-                            android:layout_width="125dp"
+                            android:id="@+id/button8"
+                            android:layout_width="98dp"
                             android:layout_height="36dp"
-                            android:layout_marginLeft="20dp"
+                            android:layout_marginLeft="15dp"
                             android:layout_marginTop="20dp"
-                            android:layout_weight="1"
+                            android:layout_weight="0"
                             android:background="@drawable/roundstyle"
-                            android:backgroundTint="#E91E63"
-                            android:text="У МЕНЯ НЕТ ДОКУМЕНТОВ"
-                            android:textColor="@color/black" />
+                            android:backgroundTint="#97C5889B"
+                            android:drawableLeft="@drawable/phone_in_talk"
+                            android:onClick="nobertwocallpolicedouble"
+                            android:text="Полиция" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:background="#88CCC6C6"
+                            android:text="Пункты 84, 89 и 91 Административного регламента\nСтатья 5 ФЗ &quot;О полиции&quot;"
+                            android:textColor="#3F51B5" />
 
                     </LinearLayout>
 
@@ -387,16 +391,32 @@
                         android:textColor="@color/black"
                         android:textStyle="normal" />
 
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="220dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="#E1DEDE"
-                        android:text="Пункт 2.1.1 ПДД \nСтатья 12.3 КоАП РФ"
-                        android:textColor="#3F51B5" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="129dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/roundstyle"
+                            android:backgroundTint="#E91E63"
+                            android:text="У МЕНЯ НЕТ ДОКУМЕНТОВ"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="15dp"
+                            android:background="#6ABFB8BB"
+                            android:text="Пункт 2.1.1 ПДД \nСтатья 12.3 КоАП РФ"
+                            android:textColor="#3F51B5" />
+                    </LinearLayout>
 
                 </LinearLayout>
 
