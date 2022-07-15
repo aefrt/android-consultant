@@ -33,30 +33,23 @@ class BlankFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // сейчас надо чтобы это работало и тогда все будет ок, мб Владислав ответит хз
         val view = inflater.inflate(R.layout.fragment_blank, container, false)
+
         val listOfMessages = view.findViewById<ListView>(R.id.messages_list)
-        val values = arrayOf("Android", "iPhone", "WindowsMobile", "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X", "Linux", "OS/2")
+        val values = arrayOf("Здравствуйте! Меня остановил сотрудник ГИБДД, 07:31, требует дать взятку, что делать?")
         val adapter: ArrayAdapter<String> = ArrayAdapter<String>(view.context, android.R.layout.simple_list_item_1, values)
         listOfMessages.setAdapter(adapter)
-        return inflater.inflate(R.layout.fragment_blank, container, false)
-    }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this)[BlankViewModel::class.java]
-        // TODO: Use the ViewModel
-    }
-
-    @SuppressLint("ResourceType")
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        /*
+        https://code.tutsplus.com/ru/tutorials/how-to-create-an-android-chat-app-using-firebase--cms-27397
+        Все должно работать
+        // val fragmentBlank = view.findViewById<ConstraintLayout>(R.layout.fragment_blank)
         val SIGN_IN_CODE = 1
-        val fragmentBlank = view.findViewById<ConstraintLayout>(R.layout.fragment_blank)
         val adapter : FirebaseListAdapter<Message>
 
         fun displayMessages() {
             val listOfMessages = view.findViewById<ListView>(R.id.messages_list)
-            val options = FirebaseListOptions.Builder<Message>().setQuery(FirebaseDatabase.getInstance().reference, Message::class.java).setLayout(R.layout.messages_list_item).build()
+            val options = FirebaseListOptions.Builder<Message>().setQuery(FirebaseDatabase.getInstance().getReference().child("chat"), Message::class.java).setLayout(R.layout.messages_list_item).build()
             val adapter = object : FirebaseListAdapter<Message>(options) {
                 override fun populateView(v: View, model: Message, position: Int) {
                     val mess_user : TextView = v.findViewById(R.id.message_user)
@@ -71,6 +64,26 @@ class BlankFragment : Fragment() {
             listOfMessages.setAdapter(adapter)
         }
 
+        if (FirebaseAuth.getInstance().currentUser == null) {
+            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(), SIGN_IN_CODE)
+        } else {
+            // Snackbar.make(fragmentBlank, "Вы авторизованы", Snackbar.LENGTH_LONG).show()
+            displayMessages()
+        }
+        */
+
+        return view
+    }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        viewModel = ViewModelProvider(this)[BlankViewModel::class.java]
+        // TODO: Use the ViewModel
+    }
+
+    @SuppressLint("ResourceType")
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
         val buttonSend = view.findViewById<FloatingActionButton>(R.id.floatingActionButton)
         val editText = view.findViewById<TextInputEditText>(R.id.textInputEditText)
         val ref = FirebaseDatabase.getInstance().reference
@@ -83,13 +96,6 @@ class BlankFragment : Fragment() {
                 ref.child("chat").push().setValue(mess);
             }
             editText.setText("")
-        }
-
-        if (FirebaseAuth.getInstance().currentUser == null) {
-            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(), SIGN_IN_CODE)
-        } else {
-            Snackbar.make(fragmentBlank, "Вы авторизованы", Snackbar.LENGTH_LONG).show()
-            TODO("displayMessages()")
         }
     }
 
