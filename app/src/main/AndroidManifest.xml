@@ -14,8 +14,8 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
-            android:name=".ui.notifications.IGetAFine"
-            android:parentActivityName=".ui.notifications.PoliceIssues">
+            android:name=".ui.notifications.NombertwoCallPolice"
+            android:parentActivityName=".ui.notifications.NombertwoMoshennik">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
@@ -23,8 +23,14 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".NombertwoMoshennik"
-            android:exported="false" />
+            android:name=".ui.notifications.NombertwoMoshennik"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".ui.dashboard.Send_to_email"
             android:parentActivityName=".ui.dashboard.DashboardNewPage">

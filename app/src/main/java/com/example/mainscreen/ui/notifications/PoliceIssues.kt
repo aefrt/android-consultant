@@ -17,13 +17,8 @@ class PoliceIssues : AppCompatActivity() {
         startActivity (intent)
     }
 
-
-    fun onLogin(view: View) {
-        IHaveNotDocs().show(supportFragmentManager, "IHaveNotDocs")
-    }
-
-    fun navigate_to_fine(view: View){
-        intent = Intent(this, IGetAFine::class.java)
-        startActivity(intent)
+    fun nobertwomoshennik(view: View){
+        intent = Intent(this, NombertwoMoshennik::class.java)
+        startActivity (intent)
     }
 }

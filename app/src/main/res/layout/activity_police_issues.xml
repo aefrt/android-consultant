@@ -178,7 +178,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -192,17 +192,17 @@
                             android:textSize="16sp"
                             android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/textView22"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="4dp"
-                            android:layout_marginTop="0dp"
+                        <Button
+                            android:id="@+id/button7"
+                            android:onClick="nobertwomoshennik"
+                            android:layout_width="wrap_content"
+                            android:layout_height="36dp"
+                            android:layout_weight="0"
+                            android:backgroundTint="#809C27B0"
                             android:text="мошенник."
-                            android:textColor="@color/black"
-                            android:textColorLink="#9C27B0"
-                            android:textSize="16sp"
-                            android:textStyle="bold" />
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            tools:ignore="TouchTargetSizeCheck" />
 
                     </LinearLayout>
 
