@@ -56,7 +56,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
 
     // YouTube
-    // implementation 'com.android.support:design:28.0.0'
+    //implementation 'com.android.support:design:23.4.0'
     implementation 'com.google.firebase:firebase-auth:21.0.6'
     implementation 'com.google.firebase:firebase-database'
     implementation 'com.firebaseui:firebase-ui:8.0.1'
