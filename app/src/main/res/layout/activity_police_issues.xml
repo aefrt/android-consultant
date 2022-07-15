@@ -404,6 +404,7 @@
                             android:layout_marginTop="15dp"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#E91E63"
+                            android:onClick="onLogin"
                             android:text="У МЕНЯ НЕТ ДОКУМЕНТОВ"
                             android:textColor="@color/black" />
 
@@ -486,6 +487,7 @@
                             android:layout_weight="1"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#FFC107"
+                            android:onClick="navigate_to_fine"
                             android:text="МНЕ ВЫПИСЫВАЮТ ШТРАФ"
                             android:textColor="@color/black" />
 

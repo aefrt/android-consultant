@@ -200,6 +200,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/roundstyle"
                     android:backgroundTint="#CC1A56"
+                    android:onClick="navigate_bribe"
                     android:text="Инспектор требует взятку"
                     android:textSize="10sp" />
 

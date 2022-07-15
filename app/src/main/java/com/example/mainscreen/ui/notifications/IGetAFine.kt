@@ -13,4 +13,8 @@ class IGetAFine : AppCompatActivity() {
     fun navigate_postanovlenie(view: View) {
         Postanovlenie().show(supportFragmentManager, "Postanovlenie")
     }
+
+    fun navigate_bribe(view: View) {
+        Bribe().show(supportFragmentManager, "Bribe")
+    }
 }
