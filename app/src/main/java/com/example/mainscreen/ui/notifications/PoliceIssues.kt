@@ -16,4 +16,15 @@ class PoliceIssues : AppCompatActivity() {
         intent = Intent(this, Police_issues2::class.java)
         startActivity (intent)
     }
+
+    fun nobertwomoshennik(view: View){
+        intent = Intent(this, NombertwoMoshennik::class.java)
+        startActivity (intent)
+    }
+
+    fun nobertwocallpolicedouble(view: View){
+        intent = Intent(this, NumbertwoCallPoliceDouble::class.java)
+        startActivity (intent)
+    }
+
 }
