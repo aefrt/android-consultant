@@ -48,9 +48,6 @@ class BlankFragment : Fragment() {
 
     @SuppressLint("ResourceType")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        // trying to display messages; реализую с самого начала, с 8:47
-        // onActivityResult, 15:00 пропущу, не понял, зачем это итд => не буду реализовывать
-        // onCreate??
         val SIGN_IN_CODE = 1
         val fragmentBlank = view.findViewById<ConstraintLayout>(R.layout.fragment_blank)
         val adapter : FirebaseListAdapter<Message>
@@ -59,45 +56,38 @@ class BlankFragment : Fragment() {
         var ref = FirebaseDatabase.getInstance().reference
         ref.keepSynced(true)
 
-        // здесь все отлично работает
         buttonSend.setOnClickListener {
             var message = editText.text.toString().trim()
             if (message != "") {
                 val mess = Message("vlad", message, 126)
-                // логично иметь два пользователя: user и support?? или как это реализовать лучше? см тот гайд
                 ref.child("chat").push().setValue(mess);
             }
             editText.setText("")
         }
 
-        // это точно что-то нужное? или для этого еще и onActivityResult нужен, см верх?
-        if (FirebaseAuth.getInstance().currentUser == null) {
-            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(), SIGN_IN_CODE)
-        } else {
-            Snackbar.make(fragmentBlank, "Вы авторизованы", Snackbar.LENGTH_LONG).show()
-        }
-
-        // пока не дописал, разберусь с конструктором, допишу и норм запущу!
-        fun displayAllMessages() {
+        fun displayMessages() {
             val listOfMessages = view.findViewById<ListView>(R.id.messages_list)
 
             val options = FirebaseListOptions.Builder<Message>().setQuery(FirebaseDatabase.getInstance().reference, Message::class.java).setLayout(R.layout.messages_list_item,).build()
             val adapter = object : FirebaseListAdapter<Message>(options) {
                 override fun populateView(v: View, model: Message, position: Int) {
-                    val mess_user : TextView
-                    var mess_time : TextView
-                    val mess_text : TextView
-                    mess_user = v.findViewById(R.id.message_user)
-                    mess_time = v.findViewById(R.id.message_time)
-                    mess_text = v.findViewById(R.id.message_text)
+                    val mess_user : TextView = v.findViewById(R.id.message_user)
+                    var mess_time : TextView = v.findViewById(R.id.message_time)
+                    val mess_text : TextView = v.findViewById(R.id.message_text)
 
                     mess_user.setText(model.userName)
                     mess_text.setText(model.textMessage)
                     mess_time.setText("0")
-                    // у меня нет time mess_time.setText(model.)
                 }
             }
             listOfMessages.setAdapter(adapter)
+        }
+
+        if (FirebaseAuth.getInstance().currentUser == null) {
+            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(), SIGN_IN_CODE)
+        } else {
+            Snackbar.make(fragmentBlank, "Вы авторизованы", Snackbar.LENGTH_LONG).show()
+            displayMessages()
         }
     }
 
