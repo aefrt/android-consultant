@@ -240,7 +240,7 @@
                         android:textStyle="bold" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="horizontal">
@@ -250,18 +250,6 @@
                             android:layout_width="206dp"
                             android:layout_height="57dp"
                             app:srcCompat="@drawable/police" />
-
-                        <Button
-                            android:id="@+id/button2"
-                            android:layout_width="125dp"
-                            android:layout_height="36dp"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_weight="1"
-                            android:background="@drawable/roundstyle"
-                            android:backgroundTint="#E91E63"
-                            android:text="У МЕНЯ НЕТ ДОКУМЕНТОВ"
-                            android:textColor="@color/black" />
 
                     </LinearLayout>
 
@@ -387,16 +375,34 @@
                         android:textColor="@color/black"
                         android:textStyle="normal" />
 
-                    <TextView
-                        android:id="@+id/textView14"
+                    <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="220dp"
-                        android:layout_marginTop="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="#E1DEDE"
-                        android:text="Пункт 2.1.1 ПДД \nСтатья 12.3 КоАП РФ"
-                        android:textColor="#3F51B5" />
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="125dp"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/roundstyle"
+                            android:backgroundTint="#E91E63"
+                            android:onClick="onLogin"
+                            android:text="У МЕНЯ НЕТ ДОКУМЕНТОВ"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#E1DEDE"
+                            android:text="Пункт 2.1.1 ПДД \nСтатья 12.3 КоАП РФ"
+                            android:textColor="#3F51B5" />
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -464,6 +470,7 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginTop="20dp"
                             android:layout_weight="1"
+                            android:onClick="navigate_to_fine"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#FFC107"
                             android:text="МНЕ ВЫПИСЫВАЮТ ШТРАФ"
