@@ -1,6 +1,5 @@
 package com.example.mainscreen.ui.notifications
 
-import android.app.ProgressDialog.show
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -17,23 +16,23 @@ class PoliceIssues : AppCompatActivity() {
         intent = Intent(this, Police_issues2::class.java)
         startActivity (intent)
     }
-    fun onLogin(view: View) {
-        IHaveNotDocs().show(supportFragmentManager, "IHaveNotDocs")
-    }
 
-    fun navigate_to_fine(view: View) {
-        intent = Intent(this, IGetAFine::class.java)
-        startActivity(intent)
-    }
     fun nobertwomoshennik(view: View){
         intent = Intent(this, NombertwoMoshennik::class.java)
         startActivity (intent)
     }
 
-    fun nobertwocallpolicedouble(view: View){
-        intent = Intent(this, NumbertwoCallPoliceDouble::class.java)
-        startActivity (intent)
+    // Экран 5
+
+    fun vzyatkaVymog(view: View) {
+        intent = Intent(this, VzyatkaVymog::class.java)
+        startActivity(intent)
     }
 
+    fun vzyatkaDat(view: View) {
+        intent = Intent(this, VzyatkaDat::class.java)
+        startActivity(intent)
+    }
 
+    // Экран 6
 }

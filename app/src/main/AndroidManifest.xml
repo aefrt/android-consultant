@@ -14,14 +14,11 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
-            android:name=".ui.notifications.IGetAFine"
-            android:parentActivityName=".ui.notifications.PoliceIssues">
-
-        <!-- The meta-data tag is required if you support API level 15 and lower -->
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
-        </activity>
+            android:name=".VzyatkaDat"
+            android:exported="false" />
+        <activity
+            android:name=".Vzyatka"
+            android:exported="false" />
         <activity
             android:name=".ui.notifications.NumbertwoCallPoliceDouble"
             android:parentActivityName=".MainActivity">
