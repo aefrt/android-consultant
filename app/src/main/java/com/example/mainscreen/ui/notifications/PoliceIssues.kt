@@ -16,14 +16,4 @@ class PoliceIssues : AppCompatActivity() {
         intent = Intent(this, Police_issues2::class.java)
         startActivity (intent)
     }
-
-
-    fun onLogin(view: View) {
-        IHaveNotDocs().show(supportFragmentManager, "IHaveNotDocs")
-    }
-
-    fun navigate_to_fine(view: View){
-        intent = Intent(this, IGetAFine::class.java)
-        startActivity(intent)
-    }
 }
