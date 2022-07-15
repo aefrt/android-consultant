@@ -36,7 +36,7 @@ class BlankFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_blank, container, false)
 
         val listOfMessages = view.findViewById<ListView>(R.id.messages_list)
-        val values = arrayOf("Здравствуйте! Меня остановил сотрудник ГИБДД, 07:31, требует дать взятку, что делать?")
+        val values = arrayOf("Здравствуйте! Меня остановил сотрудник ГИБДД, 07:31, требует дать взятку, что делать?", "Добрый день! Ваша заявка в обработке.")
         val adapter: ArrayAdapter<String> = ArrayAdapter<String>(view.context, android.R.layout.simple_list_item_1, values)
         listOfMessages.setAdapter(adapter)
 

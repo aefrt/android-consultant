@@ -583,7 +583,7 @@
                             android:layout_marginTop="20dp"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#FFC107"
-                            android:onClick="vzyatka"
+                            android:onClick="vzyatkaDat"
                             android:text="ПОЧЕМУ НЕ СТОИТ ПРЕДЛАГАТЬ ВЗЯТКУ"
                             android:textColor="@color/black" />
 
