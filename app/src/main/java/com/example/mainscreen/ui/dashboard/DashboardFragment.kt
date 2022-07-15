@@ -160,6 +160,7 @@ class DashboardFragment : Fragment(){
 
     fun navigate() {
         val intent = Intent(context, DashboardNewPage::class.java)
+        //intent.putExtra("heading", title)
         startActivity(intent)
     }
 
