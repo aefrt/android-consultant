@@ -22,9 +22,17 @@ class PoliceIssues : AppCompatActivity() {
         startActivity (intent)
     }
 
-    fun nobertwocallpolicedouble(view: View){
-        intent = Intent(this, NumbertwoCallPoliceDouble::class.java)
-        startActivity (intent)
+    // Экран 5
+
+    fun vzyatkaVymog(view: View) {
+        intent = Intent(this, VzyatkaVymog::class.java)
+        startActivity(intent)
     }
 
+    fun vzyatkaDat(view: View) {
+        intent = Intent(this, VzyatkaDat::class.java)
+        startActivity(intent)
+    }
+
+    // Экран 6
 }

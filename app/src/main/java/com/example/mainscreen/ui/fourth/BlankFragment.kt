@@ -33,20 +33,12 @@ class BlankFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // сейчас временно pабиваю на работу кнопки и изучаю, как реализовать простейший Adapter
-        // https://www.youtube.com/watch?v=eKYBUuxM3aA почему оно у меня не работает???
-        // вообще а почему у меня ListView пустой на экране а у других на скринах заполненный?
+        // сейчас надо чтобы это работало и тогда все будет ок, мб Владислав ответит хз
         val view = inflater.inflate(R.layout.fragment_blank, container, false)
-        val data = ArrayList<String>()
-        data.add("Julien")
-        data.add("Julien")
-        data.add("Julien")
-        data.add("Julien")
-        data.add("Julien")
-        data.add("Julien")
-        val adapter1 = ArrayAdapter<String>(view.getContext(), android.R.layout.simple_list_item_1, data)
         val listOfMessages = view.findViewById<ListView>(R.id.messages_list)
-        listOfMessages.setAdapter(adapter1)
+        val values = arrayOf("Android", "iPhone", "WindowsMobile", "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X", "Linux", "OS/2")
+        val adapter: ArrayAdapter<String> = ArrayAdapter<String>(view.context, android.R.layout.simple_list_item_1, values)
+        listOfMessages.setAdapter(adapter)
         return inflater.inflate(R.layout.fragment_blank, container, false)
     }
 

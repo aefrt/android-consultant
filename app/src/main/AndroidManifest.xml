@@ -14,6 +14,12 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".VzyatkaDat"
+            android:exported="false" />
+        <activity
+            android:name=".Vzyatka"
+            android:exported="false" />
+        <activity
             android:name=".ui.notifications.NumbertwoCallPoliceDouble"
             android:parentActivityName=".MainActivity">
 

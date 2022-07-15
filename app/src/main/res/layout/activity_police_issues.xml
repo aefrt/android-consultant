@@ -486,6 +486,7 @@
                             android:layout_weight="1"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#FFC107"
+                            android:onClick="vzyatka"
                             android:text="МНЕ ВЫПИСЫВАЮТ ШТРАФ"
                             android:textColor="@color/black" />
 
@@ -582,6 +583,7 @@
                             android:layout_marginTop="20dp"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#FFC107"
+                            android:onClick="vzyatkaDat"
                             android:text="ПОЧЕМУ НЕ СТОИТ ПРЕДЛАГАТЬ ВЗЯТКУ"
                             android:textColor="@color/black" />
 
@@ -594,6 +596,7 @@
                             android:layout_weight="1"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#E91E63"
+                            android:onClick="vzyatkaVymog"
                             android:text="ИНСПЕКТОР ТРЕБУЕТ ВЗЯТКУ"
                             android:textColor="@color/black" />
 
