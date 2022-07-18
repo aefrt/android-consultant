@@ -14,9 +14,10 @@
         <entry key="app/src/main/res/layout/activity_police_issues.xml" value="0.27795104980468754" />
         <entry key="app/src/main/res/layout/activity_police_issues2.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_policeissues.xml" value="0.182518115942029" />
-        <entry key="app/src/main/res/layout/activity_vskrytie.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_vskrytie.xml" value="0.19687676913496374" />
         <entry key="app/src/main/res/layout/activity_vzyatka.xml" value="0.27485833651777625" />
-        <entry key="app/src/main/res/layout/activity_vzyatka_dat.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_vzyatka_dat.xml" value="0.26816125399824503" />
+        <entry key="app/src/main/res/layout/activity_vzyatka_vymog.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.21945648193359377" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />

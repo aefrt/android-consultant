@@ -16,6 +16,7 @@ import android.widget.TextView
 import com.example.mainscreen.R
 
 class PoliceIssues : AppCompatActivity() {
+    // Экран 6
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_police_issues)
