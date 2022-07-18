@@ -35,4 +35,6 @@ class PoliceIssues : AppCompatActivity() {
     }
 
     // Экран 6
+    // https://www.geeksforgeeks.org/how-to-make-substring-of-a-textview-clickable-in-android/ <- вот так будет достаточно
+    // Osmotr, Vskrytie, Dosmotr
 }

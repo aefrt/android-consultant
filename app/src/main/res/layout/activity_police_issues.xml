@@ -677,20 +677,43 @@
                         android:textColor="@color/black"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:id="@+id/textView32"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="26dp"
-                        android:layout_marginRight="20dp"
-                        android:text="1. Осмотр — это визуальное обследование со стороны, его основаниями могут быть информация об использовании транспортного средства в противоправных целях, необходимость проверки номеров, перевозимого груза. По окончании составляется акт осмотра.\n2. Вскрытие проводится, если есть подозрения, что в транспортном средстве находятся без специального разрешения предметы или вещи, изъятые из оборота или ограниченные в обороте. \n3. Досмотр — обследование, проводимое без нарушения конструктивной целостности автомобиля для обнаружения орудий совершения либо предметов административного правонарушения. Это более серьезная процедура, требующая привлечения 2 понятых, либо применение видеозаписи. По окончании составляется протокол досмотра, либо вносится запись в протокол об административном правонарушении. Помните, что инспектор не может сам открывать двери и двигать предметы в транспортном средстве при досмотре."
-                        android:textColor="@color/black"
-                        android:textStyle="bold" />
-
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal" />
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="26dp"
+                            android:layout_marginRight="20dp"
+                            android:text="1. Осмотр — это визуальное обследование со стороны, его основаниями могут быть информация об использовании транспортного средства в противоправных целях, необходимость проверки номеров, перевозимого груза. По окончании составляется акт осмотра."
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView60"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="26dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:text="2. Вскрытие проводится, если есть подозрения, что в транспортном средстве находятся без специального разрешения предметы или вещи, изъятые из оборота или ограниченные в обороте."
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView59"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="26dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_weight="1"
+                            android:text="3. Досмотр — обследование, проводимое без нарушения конструктивной целостности автомобиля для обнаружения орудий совершения либо предметов административного правонарушения. Это более серьезная процедура, требующая привлечения 2 понятых, либо применение видеозаписи. По окончании составляется протокол досмотра, либо вносится запись в протокол об административном правонарушении. Помните, что инспектор не может сам открывать двери и двигать предметы в транспортном средстве при досмотре."
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </LinearLayout>
 
                 </LinearLayout>
 

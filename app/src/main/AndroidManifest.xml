@@ -19,7 +19,9 @@
         <activity
             android:name=".ui.notifications.VzyatkaVymog"
             android:exported="false" />
+
         <!-- https://stackoverflow.com/questions/4574848/button-click-stops-app-unexpectedly -->
+
         <activity
             android:name=".ui.notifications.NumbertwoCallPoliceDouble"
             android:parentActivityName=".MainActivity">
