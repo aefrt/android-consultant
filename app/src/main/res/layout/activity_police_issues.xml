@@ -795,7 +795,7 @@
                             android:layout_marginRight="20dp"
                             android:layout_weight="1"
                             android:background="#E1DEDE"
-                            android:text="Статься 27.12 КоАП РФ"
+                            android:text="Статья 27.12 КоАП РФ"
                             android:textColor="#3F51B5" />
                     </LinearLayout>
 
