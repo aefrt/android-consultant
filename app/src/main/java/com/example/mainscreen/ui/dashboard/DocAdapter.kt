@@ -14,7 +14,7 @@ import com.example.mainscreen.databinding.DocItemBinding
 
 //new code
 interface DocDelegate{
-    fun openDoc()
+    fun openDoc(head : String)
 }
 //
 
@@ -40,7 +40,7 @@ class DocAdapter: RecyclerView.Adapter<DocAdapter.DocHolder>(){
             tvTitle.text = doc.title
             //new code
             description.setOnClickListener {
-                delegate?.openDoc()
+                delegate?.openDoc(doc.title)
                 //
             }
 

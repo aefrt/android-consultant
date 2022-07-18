@@ -29,16 +29,6 @@ class DashboardFragment : Fragment(){
     private val adapter3 = DocAdapter3()
     private val adapter4 = DocAdapter4()
 
-    /*override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        adapter.attachDelegate(object : DocDelegate {
-            override fun openDoc() {
-                navigate()
-            }
-
-
-        })
-    }*/
 
 
 
@@ -136,31 +126,31 @@ class DashboardFragment : Fragment(){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         adapter.attachDelegate(object : DocDelegate {
-            override fun openDoc() {
-                navigate()
+            override fun openDoc(head: String) {
+                navigate(head)
             }
         })
         adapter2.attachDelegate(object : DocDelegate2 {
-            override fun openDoc() {
-                navigate()
+            override fun openDoc(head: String) {
+                navigate(head)
             }
         })
         adapter3.attachDelegate(object : DocDelegate3 {
-            override fun openDoc() {
-                navigate()
+            override fun openDoc(head: String) {
+                navigate(head)
             }
         })
         adapter4.attachDelegate(object : DocDelegate4 {
-            override fun openDoc() {
-                navigate()
+            override fun openDoc(head: String) {
+                navigate(head)
             }
         })
 
     }
 
-    fun navigate() {
+    fun navigate(head : String) {
         val intent = Intent(context, DashboardNewPage::class.java)
-        //intent.putExtra("heading", title)
+        intent.putExtra("heading", head)
         startActivity(intent)
     }
 

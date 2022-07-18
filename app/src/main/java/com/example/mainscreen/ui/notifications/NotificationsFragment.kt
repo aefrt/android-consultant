@@ -49,10 +49,17 @@ class NotificationsFragment : Fragment() {
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        var buttonPol = view.findViewById<Button>(R.id.button_police)
+        val buttonPol = view.findViewById<Button>(R.id.button_police)
 
         buttonPol.setOnClickListener {
             val intent = Intent(context, PoliceIssues::class.java)
+            startActivity(intent)
+        }
+
+        val buttonSos = view.findViewById<Button>(R.id.sos)
+
+        buttonSos.setOnClickListener {
+            val intent = Intent(context, Sos::class.java)
             startActivity(intent)
         }
     }

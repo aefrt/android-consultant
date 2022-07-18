@@ -9,7 +9,7 @@ import com.example.mainscreen.R
 import com.example.mainscreen.databinding.DocItemBinding
 
 interface DocDelegate2{
-    fun openDoc()
+    fun openDoc(head : String)
 }
 
 class DocAdapter2: RecyclerView.Adapter<DocAdapter2.DocHolder>() {
@@ -30,7 +30,7 @@ class DocAdapter2: RecyclerView.Adapter<DocAdapter2.DocHolder>() {
             im.setImageResource(doc.imageId)
             tvTitle.text = doc.title
             description.setOnClickListener {
-                delegate?.openDoc()
+                delegate?.openDoc(doc.title)
                 //
             }
         }
