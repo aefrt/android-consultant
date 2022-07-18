@@ -22,6 +22,16 @@ class PoliceIssues : AppCompatActivity() {
         startActivity (intent)
     }
 
+    fun no_docs(view: View) {
+        IHaveNotDocs().show(supportFragmentManager, "IHaveNotDocs")
+    }
+
+
+    fun navigate_to_fine(view: View){
+        intent = Intent(this, IGetAFine::class.java)
+        startActivity(intent)
+    }
+
     // Экран 5
 
     fun vzyatkaVymog(view: View) {
@@ -33,6 +43,7 @@ class PoliceIssues : AppCompatActivity() {
         intent = Intent(this, VzyatkaDat::class.java)
         startActivity(intent)
     }
+
 
     // Экран 6
     // https://www.geeksforgeeks.org/how-to-make-substring-of-a-textview-clickable-in-android/ <- вот так будет достаточно

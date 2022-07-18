@@ -32,6 +32,15 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
+            android:name=".ui.notifications.IGetAFine"
+            android:parentActivityName=".ui.notifications.PoliceIssues">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ui.notifications.NombertwoCallPolice"
             android:parentActivityName=".ui.notifications.NombertwoMoshennik"
             tools:ignore="DuplicateActivity">
