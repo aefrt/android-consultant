@@ -13,7 +13,7 @@ class NombertwoMoshennik : AppCompatActivity() {
     }
 
     fun nobertwocallpolice(view: View){
-        intent = Intent(this, NombertwoCallPolice::class.java)
+        intent = Intent(this, NumbertwoCallPoliceDouble::class.java)
         startActivity (intent)
     }
 }

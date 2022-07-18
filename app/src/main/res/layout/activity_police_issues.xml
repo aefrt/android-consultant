@@ -255,7 +255,7 @@
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#97C5889B"
                             android:drawableLeft="@drawable/phone_in_talk"
-                            android:onClick="nobertwocallpolicedouble"
+                            android:onClick="nobertwocallpolice"
                             android:text="Полиция" />
 
                         <TextView
@@ -404,6 +404,7 @@
                             android:layout_marginTop="15dp"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#E91E63"
+                            android:onClick="no_docs"
                             android:text="У МЕНЯ НЕТ ДОКУМЕНТОВ"
                             android:textColor="@color/black" />
 
@@ -486,7 +487,7 @@
                             android:layout_weight="1"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#FFC107"
-                            android:onClick="vzyatka"
+                            android:onClick="navigate_to_fine"
                             android:text="МНЕ ВЫПИСЫВАЮТ ШТРАФ"
                             android:textColor="@color/black" />
 

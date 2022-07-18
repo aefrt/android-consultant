@@ -3,8 +3,8 @@ package com.example.mainscreen.ui.notifications
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.Typeface
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.text.SpannableString
 import android.text.Spanned
 import android.text.TextPaint
@@ -13,13 +13,9 @@ import android.text.style.ClickableSpan
 import android.text.style.StyleSpan
 import android.view.View
 import android.widget.TextView
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import com.example.mainscreen.R
 
-
 class PoliceIssues : AppCompatActivity() {
-    // Экран 6
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_police_issues)
@@ -103,8 +99,6 @@ class PoliceIssues : AppCompatActivity() {
         dosmotr.highlightColor = Color.TRANSPARENT
     }
 
-    // Другие экраны
-
     fun poliss(view: View){
         intent = Intent(this, Police_issues2::class.java)
         startActivity (intent)
@@ -113,6 +107,16 @@ class PoliceIssues : AppCompatActivity() {
     fun nobertwomoshennik(view: View){
         intent = Intent(this, NombertwoMoshennik::class.java)
         startActivity (intent)
+    }
+
+    fun no_docs(view: View) {
+        IHaveNotDocs().show(supportFragmentManager, "IHaveNotDocs")
+    }
+
+
+    fun navigate_to_fine(view: View){
+        intent = Intent(this, IGetAFine::class.java)
+        startActivity(intent)
     }
 
     // Экран 5
@@ -126,5 +130,4 @@ class PoliceIssues : AppCompatActivity() {
         intent = Intent(this, VzyatkaDat::class.java)
         startActivity(intent)
     }
-
 }
