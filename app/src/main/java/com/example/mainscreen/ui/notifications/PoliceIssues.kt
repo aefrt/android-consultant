@@ -26,7 +26,7 @@ class PoliceIssues : AppCompatActivity() {
 
             override fun onClick(textView: View) {
 
-                startActivity(Intent(this@PoliceIssues, VzyatkaVymog::class.java))
+                startActivity(Intent(this@PoliceIssues, OsmotrActivity::class.java))
             }
 
             override fun updateDrawState(ds: TextPaint) {
@@ -52,7 +52,7 @@ class PoliceIssues : AppCompatActivity() {
 
             override fun onClick(textView: View) {
 
-                startActivity(Intent(this@PoliceIssues, VzyatkaVymog::class.java))
+                startActivity(Intent(this@PoliceIssues, VskrytieActivity::class.java))
             }
 
             override fun updateDrawState(ds: TextPaint) {
@@ -78,7 +78,7 @@ class PoliceIssues : AppCompatActivity() {
 
             override fun onClick(textView: View) {
 
-                startActivity(Intent(this@PoliceIssues, VzyatkaVymog::class.java))
+                startActivity(Intent(this@PoliceIssues, DosmotrActivity::class.java))
             }
 
             override fun updateDrawState(ds: TextPaint) {
@@ -99,6 +99,8 @@ class PoliceIssues : AppCompatActivity() {
         dosmotr.highlightColor = Color.TRANSPARENT
     }
 
+    // Другие экраны
+
     fun poliss(view: View){
         intent = Intent(this, Police_issues2::class.java)
         startActivity (intent)
@@ -112,7 +114,6 @@ class PoliceIssues : AppCompatActivity() {
     fun no_docs(view: View) {
         IHaveNotDocs().show(supportFragmentManager, "IHaveNotDocs")
     }
-
 
     fun navigate_to_fine(view: View){
         intent = Intent(this, IGetAFine::class.java)

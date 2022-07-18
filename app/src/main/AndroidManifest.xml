@@ -14,14 +14,20 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".ui.notifications.DosmotrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.VskrytieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.OsmotrActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.notifications.VzyatkaDat"
             android:exported="false" />
         <activity
             android:name=".ui.notifications.VzyatkaVymog"
-            android:exported="false" />
-
-        <!-- https://stackoverflow.com/questions/4574848/button-click-stops-app-unexpectedly -->
-
+            android:exported="false" /> <!-- https://stackoverflow.com/questions/4574848/button-click-stops-app-unexpectedly -->
         <activity
             android:name=".ui.notifications.NumbertwoCallPoliceDouble"
             android:parentActivityName=".MainActivity">
