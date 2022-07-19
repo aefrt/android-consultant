@@ -1,22 +1,17 @@
 package com.example.mainscreen.ui.dashboard
 
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.os.Environment
 import android.os.StrictMode
 import android.view.View
 import android.widget.Button
-import android.widget.TextView
+import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mainscreen.R
-import java.io.File
-import java.util.*
-import javax.mail.*
-import javax.mail.internet.InternetAddress
-import javax.mail.internet.MimeMessage
 
 
 class Send_to_email : AppCompatActivity() {
@@ -28,35 +23,25 @@ class Send_to_email : AppCompatActivity() {
 
         button.setOnClickListener(object : View.OnClickListener{
             override fun onClick(v: View) {
-                val username: String = "qwerty12applicat@gmail.com"
-                val password: String = "Qwerty0890"
-                val messageToSend = "Hello"
-                val props: Properties = Properties()
-                props.put("mail.smth.auth", "true")
-                props.put("mail.smtp.starttls.enable", "true")
-                props.put("mail.smtp.host", "smtp.gmail.com")
-                props.put("mail.smtp.port", "888")
-                //val session : Session = Session.getInstance(props, Authenticator()
-
-                val session = Session.getInstance(props,
-                    object : Authenticator() {
-                        override fun getPasswordAuthentication(): PasswordAuthentication {
-                            return PasswordAuthentication(username, password)
-                        }
-                    })
+                val to_my_email1_imput = findViewById<EditText>(R.id.email2)
+                val to_email1 = to_my_email1_imput.text.toString().trim()  // в этой штуке нет смысла поскольку для отправки нужно уже быть авторизованным
+                val to_my_email2_imput = findViewById<EditText>(R.id.email3)
+                val to_email2 = to_my_email2_imput.text.toString().trim()  // в этой штуке нет смысла поскольку для отправки нужно уже быть авторизованным
+                val uriText = "mailto:" + to_email1 + "," + to_email2 +
+                        "?subject=" + Uri.encode("some subject text here") +
+                        "&body=" + Uri.encode("some text here")
+                val uri = Uri.parse(uriText)
+                val sendIntent = Intent(Intent.ACTION_SENDTO)
+                sendIntent.data = uri
+                startActivity(Intent.createChooser(sendIntent, "Send email"))
                 try {
-                    val message: Message = MimeMessage(session)
-                    message.setFrom(InternetAddress(username))
-                    message.setRecipients(
-                        Message.RecipientType.TO,
-                        InternetAddress.parse("qwerty12applicat@gmail.com")
-                    )
-                    message.setSubject("Sending")
-                    message.setText("ajsfghasdhfgahfgay")
-                    Transport.send(message)
-                    Toast.makeText(this@Send_to_email, "email send", Toast.LENGTH_LONG).show()
-                } catch (e: MessagingException) {
-                    throw RuntimeException(e)
+                    startActivity(Intent.createChooser(sendIntent, "Send mail..."))
+                } catch (ex: ActivityNotFoundException) {
+                    Toast.makeText(
+                        this@Send_to_email,
+                        "There are no email clients installed.",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             }
 
@@ -65,6 +50,37 @@ class Send_to_email : AppCompatActivity() {
         StrictMode.setThreadPolicy(policy)
         }
 
+        // onClick Dima's old version
+            /*val username: String = "qwerty12applicat@gmail.com"
+        val password: String = "Qwerty0890"
+        val messageToSend = "Hello"
+        val props: Properties = Properties()
+        props.put("mail.smth.auth", "true")
+        props.put("mail.smtp.starttls.enable", "true")
+        props.put("mail.smtp.host", "smtp.gmail.com")
+        props.put("mail.smtp.port", "888")
+        //val session : Session = Session.getInstance(props, Authenticator()
+
+        val session = Session.getInstance(props,
+            object : Authenticator() {
+                override fun getPasswordAuthentication(): PasswordAuthentication {
+                    return PasswordAuthentication(username, password)
+                }
+            })
+        try {
+            val message: Message = MimeMessage(session)
+            message.setFrom(InternetAddress(username))
+            message.setRecipients(
+                Message.RecipientType.TO,
+                InternetAddress.parse("qwerty12applicat@gmail.com")
+            )
+            message.setSubject("Sending")
+            message.setText("ajsfghasdhfgahfgay")
+            Transport.send(message)
+            Toast.makeText(this@Send_to_email, "email send", Toast.LENGTH_LONG).show()
+        } catch (e: MessagingException) {
+            throw RuntimeException(e)
+        }*/
 
         /*val filename = "jurist.pdf"
         val filelocation = File(Environment.getExternalStorageDirectory(), filename)

@@ -35,42 +35,20 @@ class BlankFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_blank, container, false)
 
-        val listOfMessages = view.findViewById<ListView>(R.id.messages_list)
-        val values = arrayOf("Здравствуйте! Меня остановил сотрудник ГИБДД, 07:31, требует дать взятку, что делать?", "Добрый день! Ваша заявка в обработке.")
-        val adapter: ArrayAdapter<String> = ArrayAdapter<String>(view.context, android.R.layout.simple_list_item_1, values)
-        listOfMessages.setAdapter(adapter)
-
-        /*
-        https://code.tutsplus.com/ru/tutorials/how-to-create-an-android-chat-app-using-firebase--cms-27397
-        Все должно работать
-        // val fragmentBlank = view.findViewById<ConstraintLayout>(R.layout.fragment_blank)
-        val SIGN_IN_CODE = 1
-        val adapter : FirebaseListAdapter<Message>
-
-        fun displayMessages() {
-            val listOfMessages = view.findViewById<ListView>(R.id.messages_list)
-            val options = FirebaseListOptions.Builder<Message>().setQuery(FirebaseDatabase.getInstance().getReference().child("chat"), Message::class.java).setLayout(R.layout.messages_list_item).build()
-            val adapter = object : FirebaseListAdapter<Message>(options) {
-                override fun populateView(v: View, model: Message, position: Int) {
-                    val mess_user : TextView = v.findViewById(R.id.message_user)
-                    val mess_time : TextView = v.findViewById(R.id.message_time)
-                    val mess_text : TextView = v.findViewById(R.id.message_text)
-
-                    mess_user.setText(model.userName)
-                    mess_text.setText(model.textMessage)
-                    mess_time.setText("0")
-                }
+        // все должно работать, проблема в адаптере
+        // см документацию https://firebaseopensource.com/projects/firebase/firebaseui-android/database/readme/
+        // а что можно без setLayout???
+        // думаю, стоит отказаться от этой облачной хуйни и настроить только аналитику и все — ведь это все-таки будет поиск в интерфейсе чата
+        val options = FirebaseListOptions.Builder<String>().setQuery(FirebaseDatabase.getInstance().getReference().child("chat"), String::class.java).setLayout(android.R.layout.simple_list_item_1).build()
+        val adapter = object : FirebaseListAdapter<String>(options) {
+            override fun populateView(v: View, model: String, position: Int) {
+                val mess_text : TextView = v.findViewById(android.R.id.text1)
+                mess_text.setText(model)
             }
-            listOfMessages.setAdapter(adapter)
         }
 
-        if (FirebaseAuth.getInstance().currentUser == null) {
-            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder().build(), SIGN_IN_CODE)
-        } else {
-            // Snackbar.make(fragmentBlank, "Вы авторизованы", Snackbar.LENGTH_LONG).show()
-            displayMessages()
-        }
-        */
+        val listOfMessages = view.findViewById<ListView>(R.id.messages_list)
+        listOfMessages.setAdapter(adapter)
 
         return view
     }
@@ -83,6 +61,7 @@ class BlankFragment : Fragment() {
 
     @SuppressLint("ResourceType")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        // эта часть работает:
 
         val buttonSend = view.findViewById<FloatingActionButton>(R.id.floatingActionButton)
         val editText = view.findViewById<TextInputEditText>(R.id.textInputEditText)
