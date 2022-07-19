@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.More1">
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Остановитесь по требованию инспектора."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="339dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="16dp"
+        android:text="Инспектор вправе остановить машину для проверки документов: при наличии признаков нарушения безопасности        дорожного движения; в случае временного ограничения или запрещения движения;  при иных подозрениях.   "
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="340dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="16dp"
+        android:text="За невыполнение законного требования инспектора остановиться предусмотрен штраф от 500 до 800 рублей. В таком случае сотрудник ГИБДД либо передаст информацию о вашей машине на следующие посты ГИБДД, либо догонит вас на патрульном автомобиле с включенным проблесковым маяком (&quot;мигалкой&quot;)."
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пункт 6.11 ПДД \n\n Часть 2 статьи 12.25 КоАП РФ"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="490dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

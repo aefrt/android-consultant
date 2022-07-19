@@ -16,6 +16,15 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".More3"
+            android:exported="false" />
+        <activity
+            android:name=".More2"
+            android:exported="false" />
+        <activity
+            android:name=".More1"
+            android:exported="false" />
+        <activity
             android:name=".ui.notifications.Extra"
             android:parentActivityName=".MainActivity">
 

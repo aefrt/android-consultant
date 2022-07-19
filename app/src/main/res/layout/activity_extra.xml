@@ -194,6 +194,7 @@
                         android:background="@drawable/roundstyle"
                         android:backgroundTint="#EFBBFB"
                         android:gravity="center"
+                        android:onClick="more1"
                         android:text="ПОДРОБНЕЕ"
                         android:textSize="12sp" />
 
@@ -230,6 +231,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/roundstyle"
                         android:backgroundTint="#E91E63"
+                        android:onClick="more2"
                         android:text="У МЕНЯ НЕТ ДОКУМЕНТОВ"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
@@ -257,6 +259,7 @@
                         android:background="@drawable/roundstyle"
                         android:backgroundTint="#EFBBFB"
                         android:gravity="center"
+                        android:onClick="more3"
                         android:text="ПОДРОБНЕЕ"
                         android:textSize="12sp" />
 

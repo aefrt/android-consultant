@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.More3">
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Попросите инспектора представиться и показать удостоверение."
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Убедитесь, что это действительно инспектор ГИБДД, а не мошенник"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Попросите его представиться, показать удостоверение и объяснить причину остановки, если он этого не сделал. "
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Закон «О полиции» обязывает сотрудника при обращении к гражданину обязан назвать свою должность, звание, фамилию, по требованию показать служебное удостоверение, сказать причину и цель обращения. В противном случае выполнять его требования вы не обязаны. Позвоните в 102 или 112 и сообщите о произошедшем."
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пункты 84, 89 и 91 Административного регламента Статья 5 ФЗ &quot;О полиции&quot;"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Полиция "
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="466dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
