@@ -51,8 +51,14 @@ class NotificationsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val buttonPol = view.findViewById<Button>(R.id.button_police)
 
-        buttonPol.setOnClickListener {
+        /*buttonPol.setOnClickListener {
             val intent = Intent(context, PoliceIssues::class.java)
+            startActivity(intent)
+        }*/
+
+
+        buttonPol.setOnClickListener {
+            val intent = Intent(context, Menu_instructions::class.java)
             startActivity(intent)
         }
 
