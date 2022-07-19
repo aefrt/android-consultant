@@ -11,7 +11,6 @@ class Extra : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_extra)
     }
-
     fun carextranumberfour(view: View) {
         intent = Intent(this, Car_extra_number4::class.java)
         startActivity(intent)
@@ -36,5 +35,18 @@ class Extra : AppCompatActivity() {
         intent = Intent(this, Car_extra_number63::class.java)
         startActivity(intent)
     }
+    fun more1(view: View) {
+        intent = Intent(this, More1::class.java)
+        startActivity(intent)
+    }
 
+    fun more2(view: View) {
+        intent = Intent(this, More2::class.java)
+        startActivity(intent)
+    }
+
+    fun more3(view: View) {
+        intent = Intent(this, More3::class.java)
+        startActivity(intent)
+    }
 }

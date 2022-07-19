@@ -24,8 +24,8 @@
 
     <TextView
         android:id="@+id/textView55"
-        android:layout_width="230dp"
-        android:layout_height="171dp"
+        android:layout_width="262dp"
+        android:layout_height="286dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="38dp"
         android:text="Инспектор ГИБДД не вправе требовать оплаты штрафа на месте, даже если водитель что-то нарушил. Водители не платят штрафы напрямую инспектору. Их нужно платить в бюджет через банк или с карты. \n\n Если инспектор ГИБДД предлагает &quot;договориться&quot; и обещает скидку, он вымогает взятку. Скидку 50% можно получить на госуслугах законным путем. Для этого необходимо оплатить штраф в течение 20 дней после вынесения постановления.  "
@@ -36,8 +36,8 @@
         android:id="@+id/button9"
         android:layout_width="92dp"
         android:layout_height="28dp"
-        android:layout_marginStart="260dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="340dp"
         android:text="Статьи 290, 291 УК РФ"
         android:textSize="6sp"
         app:layout_constraintStart_toStartOf="parent"
