@@ -23,28 +23,30 @@
         android:id="@+id/textView82"
         android:layout_width="350dp"
         android:layout_height="48dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
         android:text="Убедитесь, что это действительно инспектор ГИБДД, а не мошенник"
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/textView81"
-        tools:layout_editor_absoluteX="28dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView81" />
 
     <TextView
         android:id="@+id/textView83"
         android:layout_width="313dp"
         android:layout_height="58dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
         android:text="Попросите его представиться, показать удостоверение и объяснить причину остановки, если он этого не сделал. "
         android:textColor="#000000"
-        app:layout_constraintTop_toBottomOf="@+id/textView82"
-        tools:layout_editor_absoluteX="48dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView82" />
 
     <TextView
         android:id="@+id/textView84"
         android:layout_width="334dp"
         android:layout_height="163dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
         android:text="Закон «О полиции» обязывает сотрудника при обращении к гражданину обязан назвать свою должность, звание, фамилию, по требованию показать служебное удостоверение, сказать причину и цель обращения. В противном случае выполнять его требования вы не обязаны. Позвоните в 102 или 112 и сообщите о произошедшем."
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
