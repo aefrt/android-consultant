@@ -49,4 +49,14 @@ class Extra : AppCompatActivity() {
         intent = Intent(this, More3::class.java)
         startActivity(intent)
     }
+
+    fun exam(view : View) {
+        intent = Intent(this, Exam::class.java)
+        startActivity(intent)
+    }
+
+    fun fine(view : View) {
+        intent = Intent(this, Fine::class.java)
+        startActivity(intent)
+    }
 }

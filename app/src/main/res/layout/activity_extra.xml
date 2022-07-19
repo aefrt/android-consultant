@@ -19,9 +19,9 @@
                 android:id="@+id/textView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:text="Остановил сотрудник ГИББД"
-                android:layout_marginTop="13dp"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -123,7 +123,7 @@
                     <View
                         android:id="@+id/view6"
                         android:layout_width="6dp"
-                        android:layout_height="140dp"
+                        android:layout_height="125dp"
                         android:layout_marginLeft="13dp"
                         android:layout_weight="1"
                         android:background="#F33131" />
@@ -138,7 +138,7 @@
                     <View
                         android:id="@+id/view7"
                         android:layout_width="6dp"
-                        android:layout_height="145dp"
+                        android:layout_height="130dp"
                         android:layout_marginLeft="13dp"
                         android:layout_weight="1"
                         android:background="#F33131" />
@@ -390,7 +390,7 @@
                         android:textStyle="bold" />
 
                     <Button
-                        android:id="@+id/button22"
+                        android:id="@+id/button_exam"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="83dp"
@@ -400,6 +400,7 @@
                         android:background="@drawable/roundstyle"
                         android:backgroundTint="#EFB930"
                         android:gravity="center"
+                        android:onClick="exam"
                         android:text="ПОРЯДОК ОСВИДЕТЕЛЬСТВОВАНИЯ"
                         android:textSize="12sp" />
 
@@ -427,6 +428,7 @@
                         android:background="@drawable/roundstyle"
                         android:backgroundTint="#EFBBFB"
                         android:gravity="center"
+                        android:onClick="fine"
                         android:text="ПОДРОБНЕЕ"
                         android:textSize="12sp" />
 

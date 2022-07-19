@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.Inspector_fine">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Что делать, если инспектор ГИБДД вымогает взятку?"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="40dp"
+                android:text="Инспектор ГИБДД не вправе требовать оплаты штрафа на месте, даже если водитель что-то нарушил. Водители не платят штрафы напрямую инспектору. Их нужно платить в бюджет через банк или с карты.\n\nЕсли инспектор ГИБДД предлагает договориться и обещает скидку, он вымогает взятку. Скидку 50% можно получить на госуслугах законным путем. Для этого необходимо оплатить штраф в течение 20 дней после вынесения постановления."
+
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="40dp"
+                android:text="Не соглашайтесь и не отказывайтесь от предложения дать взятку, уклонитесь под любым предлогом.\n\nПостарайтесь фиксировать происходящее на диктофон или видео.\n\nОбратитесь в полицию по телефону 102 и сообщите о вымогательстве."
+
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/police_call"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#97C5889B"
+                    android:drawableLeft="@drawable/phone_in_talk"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:text="ПОЛИЦИЯ"
+                    android:textColor="@color/fui_bgEmail"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0"
+                    android:background="#E1DEDE"
+                    android:gravity="center"
+                    android:text="Статьи 290, 291 УК РФ"
+                    android:textColor="#3F51B5"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
