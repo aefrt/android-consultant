@@ -11,6 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="У меня нет доументов."
+        android:textColor="#000000"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="107dp"
         tools:layout_editor_absoluteY="25dp" />
 
@@ -19,6 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="У вас есть право объяснить свои действия, а инспектор обязан выслушать ваши доводы."
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="51dp"
         tools:layout_editor_absoluteY="78dp" />
 
@@ -27,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Причина совершения вами нарушения может повлиять на наказание (стать смягчающим обстоятельством при назначении штрафа - например, если вы забыли документы в состоянии сильного душевного волнения (аффекта) либо при стечении тяжелых личных или семейных обстоятельств).  Иногда причина и вовсе исключает вину водителя: если вы действовали в состоянии крайней необходимости (например, везли экстренно в больницу человека, которому угрожала опасность) "
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="122dp" />
 
@@ -61,6 +65,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Убедитесь, что инспектор НЕ вменяет вам вождение при отсутствии документов вообще / прекращении срока их действия или их лишении."
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="59dp"
         tools:layout_editor_absoluteY="400dp" />
 
@@ -69,6 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" За данные нарушения грозит штраф до 30 тысяч рублей, арест или обязательные работы (статья 12.7). В вашем случае максимальный размер наказания - 500 рублей."
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="127dp"
         tools:layout_editor_absoluteY="491dp" />
 

@@ -10,47 +10,61 @@
         android:id="@+id/textView81"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:text="Попросите инспектора представиться и показать удостоверение."
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="52dp" />
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView82"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="83dp"
         android:text="Убедитесь, что это действительно инспектор ГИБДД, а не мошенник"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="135dp" />
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/textView81"
+        tools:layout_editor_absoluteX="109dp" />
 
     <TextView
         android:id="@+id/textView83"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
         android:text="Попросите его представиться, показать удостоверение и объяснить причину остановки, если он этого не сделал. "
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="232dp" />
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/textView82"
+        tools:layout_editor_absoluteX="104dp" />
 
     <TextView
         android:id="@+id/textView84"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:text="Закон «О полиции» обязывает сотрудника при обращении к гражданину обязан назвать свою должность, звание, фамилию, по требованию показать служебное удостоверение, сказать причину и цель обращения. В противном случае выполнять его требования вы не обязаны. Позвоните в 102 или 112 и сообщите о произошедшем."
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="313dp" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView83" />
 
     <Button
         android:id="@+id/button26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="168dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
         android:text="Пункты 84, 89 и 91 Административного регламента Статья 5 ФЗ &quot;О полиции&quot;"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintStart_toEndOf="@+id/button27"
+        app:layout_constraintTop_toBottomOf="@+id/textView84" />
 
     <Button
         android:id="@+id/button27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="52dp"
         android:text="Полиция "
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView84" />
 </androidx.constraintlayout.widget.ConstraintLayout>

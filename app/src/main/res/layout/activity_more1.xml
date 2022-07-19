@@ -10,34 +10,43 @@
         android:id="@+id/textView71"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Остановитесь по требованию инспектора."
+        android:textColor="#000000"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="49dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView72"
         android:layout_width="339dp"
         android:layout_height="143dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
         android:text="Инспектор вправе остановить машину для проверки документов: при наличии признаков нарушения безопасности        дорожного движения; в случае временного ограничения или запрещения движения;  при иных подозрениях.   "
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="136dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
 
     <TextView
         android:id="@+id/textView73"
         android:layout_width="340dp"
         android:layout_height="167dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginTop="87dp"
         android:text="За невыполнение законного требования инспектора остановиться предусмотрен штраф от 500 до 800 рублей. В таком случае сотрудник ГИБДД либо передаст информацию о вашей машине на следующие посты ГИБДД, либо догонит вас на патрульном автомобиле с включенным проблесковым маяком (&quot;мигалкой&quot;)."
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="305dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView72" />
 
     <Button
         android:id="@+id/button18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="64dp"
         android:text="Пункт 6.11 ПДД \n\n Часть 2 статьи 12.25 КоАП РФ"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="490dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
 </androidx.constraintlayout.widget.ConstraintLayout>
