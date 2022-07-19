@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.Car_extra_number4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Не выходите из машины без необходимости."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="По общему правилу вы не обязаны покидать машину. Инспектор может попросить вас выйти в случае:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp">
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="1. Наличие у водителя признаков опьянения или болезненного состояния\n2. Проведение личного досмотра, осмотра или досмотра транспортного средства и груза\n3. Проведение в присутствии водителя сверки номеров с записями в регистрационных документах\n4. Участие водителя в осуществлении процессуальных действий, а также оказании помощи другим участникам дорожного движения или сотрудникам полиции\n5. Необходимость устранения технической неисправности транспортного средства или нарушений правил перевозки грузов\n6. Поведение водителя, создающее угрозу личной безопасности сотрудника"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="400dp"
+            android:layout_weight="1"
+            android:background="#88CCC6C6"
+            android:text="Пункт 93.1 Административного регламента"
+            android:textColor="#3F51B5" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.Car_extra_number63">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Вскрытие автомобиля: что нужно знать?"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp">
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="1. Помните, что по закону о полиции полицейские могут вскрыть автомобиль и проникнуть в него. "
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Вскрытие проводится, если есть подозрения, что в транспортном средстве находятся без специального разрешения предметы или вещи, изъятые из оборота или ограниченные в обороте (например, оружие)."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp">
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Но строго в определенных случаях:\n- для спасения жизни граждан\n- для обеспечения безопасности при массовых беспорядках и чрезвычайных ситуациях\n- для задержания преступника\n- для пресечения преступления\n- при подозрении, что правонарушитель находится в состоянии алкогольного опьянения\n- для осмотра автомобиля, в котором могут находится вещи, изъятые из  оборота\- для проверки сообщения об угрозе террористического акта\n- для установления обстоятельств несчастного случая "
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp">
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="2. Способ вскрытия автомобиля законодательно не установлен. На практике чаще всего выбивают стекло. "
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp">
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="3. Автомобиль может быть вскрыт как в присутствии собственника, так и без него. В таком случае собственник должен быть проинформирован в течение 24 часов."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp">
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="4. Вы вправе обжаловать действия полицейских и потребовать возмещения ущерба, если считаете, что ваши права были нарушены. "
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

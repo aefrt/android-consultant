@@ -283,6 +283,7 @@
                         android:background="@drawable/roundstyle"
                         android:backgroundTint="#EFBBFB"
                         android:gravity="center"
+                        android:onClick="carextranumberfour"
                         android:text="ПОДРОБНЕЕ"
                         android:textSize="12sp" />
 
@@ -309,6 +310,7 @@
                         android:background="@drawable/roundstyle"
                         android:backgroundTint="#EFBBFB"
                         android:gravity="center"
+                        android:onClick="carextranumberfive"
                         android:text="ПОДРОБНЕЕ"
                         android:textSize="12sp" />
 
@@ -340,6 +342,7 @@
                             android:layout_weight="1"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#EFB930"
+                            android:onClick="carextranumbersixone"
                             android:text="Осмотр"
                             android:textSize="12sp" />
 
@@ -352,6 +355,7 @@
                             android:layout_weight="1"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#EFB930"
+                            android:onClick="carextranumbersixtwo"
                             android:text="Досмотр"
                             android:textSize="12sp" />
 
@@ -364,6 +368,7 @@
                             android:layout_weight="1"
                             android:background="@drawable/roundstyle"
                             android:backgroundTint="#EFB930"
+                            android:onClick="carextranumbersixthree"
                             android:text="Вскрытие"
                             android:textSize="12sp" />
                     </LinearLayout>

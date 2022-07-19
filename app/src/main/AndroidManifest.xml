@@ -16,6 +16,51 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".ui.notifications.Car_extra_number63"
+            android:parentActivityName=".ui.notifications.Extra">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_number62"
+            android:parentActivityName=".ui.notifications.Extra">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_number6"
+            android:parentActivityName=".ui.notifications.Extra">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_number5"
+            android:parentActivityName=".ui.notifications.Extra">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_number4"
+            android:parentActivityName=".ui.notifications.Extra">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ui.notifications.Extra"
             android:parentActivityName=".MainActivity">
 

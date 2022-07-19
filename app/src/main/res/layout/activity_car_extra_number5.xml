@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.Car_extra_number5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Вы вправе снимать инспектора на видео."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Однако не стоит злоупотреблять съемкой и провоцировать конфликтную ситуацию. Если надо, снимайте, обратив внимание на номер нагрудного знака инспектора, это позволит идентифицировать конкретного сотрудника."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp">
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="В некоторых случаях съемка может быть запрещена: для этого нужно основание и специальный документ (например, о проведении оперативного мероприятия, в случае защиты гостайны, в случае военного положения и т.д.)"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="220dp"
+            android:layout_weight="1"
+            android:background="#88CCC6C6"
+            android:text="Статья 8 ФЗ &quot;О полиции&quot;"
+            android:textColor="#3F51B5" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
