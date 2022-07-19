@@ -48,6 +48,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/roundstyle"
                     android:backgroundTint="#EC8B8B"
+                    android:onClick="ESS_call"
                     android:text="Позвонить" />
 
                 <Button

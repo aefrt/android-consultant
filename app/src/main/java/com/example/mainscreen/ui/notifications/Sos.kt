@@ -1,13 +1,13 @@
 package com.example.mainscreen.ui.notifications
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.mainscreen.R
 import com.example.mainscreen.databinding.ActivityMainBinding
-import com.example.mainscreen.ui.dashboard.Doc
+
 
 class Sos : AppCompatActivity() {
 
@@ -28,9 +28,12 @@ class Sos : AppCompatActivity() {
 
         rcView.layoutManager = LinearLayoutManager(this@Sos)
         rcView.adapter = adapter*/
+    }
 
-
-
+    fun ESS_call(view: View) {
+        val dialIntent = Intent(Intent.ACTION_DIAL)
+        dialIntent.data = Uri.parse("tel:" + "+71234567899")
+        startActivity(dialIntent)
     }
 
 }
