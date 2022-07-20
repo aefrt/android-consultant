@@ -3,9 +3,63 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_number4.xml" value="0.18446601941747573" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_number5.xml" value="0.15" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_number6.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_number62.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_number63.xml" value="0.33" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_zakon_five.xml" value="0.33" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_zakon_seven.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_zakon_six.xml" value="0.33" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_zakon_six_three.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_car_extra_zakon_six_two.xml" value="0.1" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_dashboard_new_page.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_dosmotr.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_exam.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_exam_gibbd.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_exam_hospital.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_extra.xml" value="0.35294117647058826" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_fine.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_iget_afine.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_inspector_fine.xml" value="0.2" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_main.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_menu_instructions.xml" value="0.33" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_more1.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_more2.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_more3.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_nombertwo_call_police.xml" value="0.1" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_nombertwo_moshennik.xml" value="0.1" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_numbertwo_call_police_double.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_osmotr.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_police_issues.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_police_issues2.xml" value="0.1" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_post.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_protocol.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_send_to_email.xml" value="0.33" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_sos.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_vskrytie.xml" value="0.1408308004052685" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_vzyatka_dat.xml" value="0.1408308004052685" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_vzyatka_vymog.xml" value="0.1408308004052685" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/activity_why_no_inspector_fine.xml" value="0.2740036231884058" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/bribe.xml" value="0.1408308004052685" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/content_main.xml" value="0.1408308004052685" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/custom_dialog_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/doc_item.xml" value="0.1408308004052685" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/fragment_blank.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/fragment_dashboard.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/fragment_home.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/fragment_notifications.xml" value="0.2" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/fragment_second.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/messages_list_item.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/postanovlenie.xml" value="0.22" />
+        <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/simple_list_item1.xml" value="0.1641337386018237" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_dashboard_new_page.xml" value="0.3319746376811594" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_extra.xml" value="0.3319746376811594" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_iget_afine.xml" value="0.3319746376811594" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_menu_instructions.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_police_issues.xml" value="0.3319746376811594" />
-        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_sos.xml" value="0.25" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_sos.xml" value="0.33" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/fragment_notifications.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/number_item.xml" value="0.3319746376811594" />
         <entry key="app/src/main/res/layout-v31/activity_more2.xml" value="0.16893115942028986" />
@@ -25,6 +79,7 @@
         <entry key="app/src/main/res/layout/activity_exam.xml" value="0.3092006296351336" />
         <entry key="app/src/main/res/layout/activity_extra.xml" value="0.21969146728515626" />
         <entry key="app/src/main/res/layout/activity_fine.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_extra.xml" value="0.16032608695652173" />
         <entry key="app/src/main/res/layout/activity_iget_afine.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_inspector_fine.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_koap12252.xml" value="0.16893115942028986" />
@@ -38,21 +93,17 @@
         <entry key="app/src/main/res/layout/activity_more3.xml" value="0.3335102910580843" />
         <entry key="app/src/main/res/layout/activity_nombertwo_moshennik.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_osmotr.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_police_issues.xml" value="0.27795104980468754" />
         <entry key="app/src/main/res/layout/activity_pdd611.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_police5.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_police_issues.xml" value="0.24179620034542315" />
         <entry key="app/src/main/res/layout/activity_police_issues2.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_policeissues.xml" value="0.182518115942029" />
-        <entry key="app/src/main/res/layout/activity_post.xml" value="0.16893115942028986" />
-        <entry key="app/src/main/res/layout/activity_protocol.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_send_to_email.xml" value="0.16032608695652173" />
         <entry key="app/src/main/res/layout/activity_sos.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_vskrytie.xml" value="0.19687676913496374" />
+        <entry key="app/src/main/res/layout/activity_vskrytie.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_vzyatka.xml" value="0.27485833651777625" />
-        <entry key="app/src/main/res/layout/activity_vzyatka_dat.xml" value="0.26816125399824503" />
-        <entry key="app/src/main/res/layout/activity_vzyatka_vymog.xml" value="0.17028985507246377" />
-        <entry key="app/src/main/res/layout/activity_why_no_inspector_fine.xml" value="0.16893115942028986" />
-        <entry key="app/src/main/res/layout/bribe.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_vzyatka_dat.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.21945648193359377" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.16212005615234376" />

@@ -20,4 +20,9 @@ class Exam : AppCompatActivity() {
         intent = Intent(this, Exam_hospital::class.java)
         startActivity(intent)
     }
+
+    fun carextrazakonseven(view : View) {
+        intent = Intent(this, Car_extra_zakon_seven::class.java)
+        startActivity(intent)
+    }
 }

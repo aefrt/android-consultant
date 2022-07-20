@@ -11,4 +11,9 @@ class Car_extra_number6 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_car_extra_number6)
     }
+
+    fun carextrazakonsix(view : View) {
+        intent = Intent(this, Car_extra_zakon_six::class.java)
+        startActivity(intent)
+    }
 }

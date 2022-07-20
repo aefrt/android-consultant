@@ -154,13 +154,31 @@
             android:layout_width="278dp"
             android:layout_height="58dp"
             android:layout_marginLeft="70dp"
-            android:layout_marginTop="640dp"
+            android:layout_marginTop="670dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#F2994A"
             android:text="Оставить заявку\nна консультацию у\nюриста"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="640dp"
+            android:layout_weight="1"
+            android:background="#88CCC6C6"
+            android:onClick="carextrazakonsixthree"
+            android:text="Статья 15.1 Закона о полиции"
+            android:textColor="#3F51B5" />
     </LinearLayout>
 
     <LinearLayout

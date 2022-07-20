@@ -46,6 +46,7 @@
             android:layout_weight="0"
             android:background="#E1DEDE"
             android:gravity="center"
+            android:onClick="carextrazakonseven"
             android:text="Пункт 234 Административного регламента"
             android:textColor="#3F51B5"
             android:textSize="12sp" />
@@ -65,8 +66,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/roundstyle"
                 android:backgroundTint="#CDA0F8"
-                android:text="У инспектора ГИББД"
                 android:onClick="exam_gibbd"
+                android:text="У инспектора ГИББД"
                 android:textColor="@color/black"
                 android:textSize="12sp" />
 
@@ -76,11 +77,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="50dp"
                 android:layout_weight="1"
-                android:text="В мед. учреждении"
-                android:onClick="exam_hospital"
-                android:textColor="@color/black"
-                android:backgroundTint="#CDA0F8"
                 android:background="@drawable/roundstyle"
+                android:backgroundTint="#CDA0F8"
+                android:onClick="exam_hospital"
+                android:text="В мед. учреждении"
+                android:textColor="@color/black"
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>

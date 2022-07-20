@@ -100,6 +100,51 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
+            android:name=".ui.notifications.Car_extra_zakon_seven"
+            android:parentActivityName=".ui.notifications.Exam">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_zakon_six_three"
+            android:parentActivityName=".ui.notifications.Car_extra_number63">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_zakon_six_two"
+            android:parentActivityName=".ui.notifications.Car_extra_number62">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_zakon_six"
+            android:parentActivityName=".ui.notifications.Car_extra_number6">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_zakon_five"
+            android:parentActivityName=".ui.notifications.Car_extra_number5">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ui.notifications.More1"
             android:exported="false" />
         <activity

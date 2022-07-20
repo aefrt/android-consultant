@@ -6,14 +6,9 @@ import android.os.Bundle
 import android.view.View
 import com.example.mainscreen.R
 
-class Car_extra_number5 : AppCompatActivity() {
+class Car_extra_zakon_five : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_car_extra_number5)
-    }
-
-    fun carextrazakonfive(view : View) {
-        intent = Intent(this, Car_extra_zakon_five::class.java)
-        startActivity(intent)
+        setContentView(R.layout.activity_car_extra_zakon_five)
     }
 }
