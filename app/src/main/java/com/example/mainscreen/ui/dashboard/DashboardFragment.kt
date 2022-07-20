@@ -132,7 +132,7 @@ class DashboardFragment : Fragment(){
         })
         adapter2.attachDelegate(object : DocDelegate2 {
             override fun openDoc(head: String) {
-                navigate(head)
+                navigate2(head)
             }
         })
         adapter3.attachDelegate(object : DocDelegate3 {
@@ -153,5 +153,12 @@ class DashboardFragment : Fragment(){
         intent.putExtra("heading", head)
         startActivity(intent)
     }
+
+    fun navigate2(head : String) {
+        val intent = Intent(context, Spravochnaya::class.java)
+        intent.putExtra("heading", head)
+        startActivity(intent)
+    }
+
 
 }
