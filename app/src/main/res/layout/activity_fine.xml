@@ -119,6 +119,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:background="#E1DEDE"
+                        android:onClick="hyper8_1"
                         android:text="Пункты 134, 151, 168, 211 административного регламента."
                         android:textColor="#3F51B5" />
 
@@ -169,6 +170,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:background="#E1DEDE"
+                        android:onClick="hyper8_2"
                         android:text="Статьи 290, 291 УК РФ"
                         android:textColor="#3F51B5" />
 

@@ -122,6 +122,7 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:background="#E1DEDE"
+                        android:onClick="hyper8_4"
                         android:text="Статья 51 Конституции РФ"
                         android:textColor="#3F51B5" />
 
