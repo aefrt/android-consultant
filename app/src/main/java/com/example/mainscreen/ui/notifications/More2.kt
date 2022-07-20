@@ -16,4 +16,15 @@ class More2 : AppCompatActivity() {
         intent = Intent(this, Fine::class.java)
         startActivity(intent)
     }
+
+    fun button1(view : View) {
+        intent = Intent(this, Fine::class.java)
+        startActivity(intent)
+    }
+
+    fun button2(view : View) {
+        intent = Intent(this, Fine::class.java)
+        startActivity(intent)
+    }
+
 }

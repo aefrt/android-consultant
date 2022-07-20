@@ -59,10 +59,11 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="52dp"
         android:gravity="bottom"
-        android:text="Пункты 84, 89 и 91 Административного регламента Статья 5 ФЗ &quot;О полиции&quot;"
+        android:text="Пункты 84, 89 и 91 Административного регламента "
         android:textSize="8sp"
         app:layout_constraintStart_toEndOf="@+id/button27"
-        app:layout_constraintTop_toBottomOf="@+id/textView84" />
+        app:layout_constraintTop_toBottomOf="@+id/textView84"
+        android:onClick="button1"/>
 
     <Button
         android:id="@+id/button27"
@@ -72,5 +73,18 @@
         android:layout_marginTop="52dp"
         android:text="Полиция "
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView84" />
+        app:layout_constraintTop_toBottomOf="@+id/textView84"
+        />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="96dp"
+        android:onClick="button2"
+        android:text="Статья 5 ФЗ &quot;О полиции&quot;"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button26" />
 </androidx.constraintlayout.widget.ConstraintLayout>

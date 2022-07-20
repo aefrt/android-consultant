@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.Adm848991">
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Снова нужен ScrollView; Пункты 84, 89 и 91 Административного регламента 84: http://www.consultant.ru/document/cons_doc_LAW_280037/dbbfac1c0ef0ee0b778c4fd5075 b18de5d4d3f27/ 89: http://www.consultant.ru/document/cons_doc_LAW_280037/dbbfac1c0ef0ee0b778c4fd5075 b18de5d4d3f27/#:~:text=%D0%B2%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%BE%D 0%BC%20%D0%BC%D0%B5%D1%81%D1%82%D0%B5.-,89,-.%20%D0%9E%D1%81% D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D0%B2%20%D1%82%D1%80% D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%BD%D0%BE%D0% B5%20%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE 91: http://www.consultant.ru/document/cons_doc_LAW_280037/dbbfac1c0ef0ee0b778c4fd5075 b18de5d4d3f27/#:~:text=%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%20%D0 %B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE%20%D0 %B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.-,91,-.%20%D0%9 F%D1%80%D0%B8%20%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D1%83%D0%B 6%D0%B5%D0%BD%D0%B8%D0%B8%20%D0%B4%D0%BE%D1%81%D1%82%D0%B 0%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D1%85"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="51dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

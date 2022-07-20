@@ -97,6 +97,7 @@
                             android:layout_marginRight="10dp"
                             android:layout_weight="0"
                             android:background="#E1DEDE"
+                            android:onClick="button1"
                             android:text="Статьи 2.7, 4.2, 24.5,  КоАП РФ \nСтатья 51 Конституции РФ \nПункты 51, 132 Админстративного регламента"
                             android:textColor="#3F51B5" />
                     </LinearLayout>
@@ -175,6 +176,7 @@
                             android:layout_marginLeft="200dp"
                             android:background="#88CCC6C6"
                             android:gravity="fill_horizontal"
+                            android:onClick="button2"
                             android:text="Статьи 12.3, 12.7 КоАП РФ"
                             android:textColor="#3F51B5" />
 

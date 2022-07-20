@@ -16,6 +16,33 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".Police5"
+            android:exported="false" />
+        <activity
+            android:name=".Adm848991"
+            android:exported="false" />
+        <activity
+            android:name=".Adm51132"
+            android:exported="false" />
+        <activity
+            android:name=".Konst51"
+            android:exported="false" />
+        <activity
+            android:name=".Koap2742245"
+            android:exported="false" />
+        <activity
+            android:name=".More2Button2"
+            android:exported="false" />
+        <activity
+            android:name=".More2Button1"
+            android:exported="false" />
+        <activity
+            android:name=".Koap12252"
+            android:exported="false" />
+        <activity
+            android:name=".Pdd611"
+            android:exported="false" />
+        <activity
             android:name=".ui.notifications.More1"
             android:exported="false" />
         <activity
