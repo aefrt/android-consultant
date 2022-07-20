@@ -80,7 +80,7 @@
                 android:backgroundTint="#5CA2EF"
                 android:drawableTop="@drawable/ic_velo_arenda"
                 android:paddingTop="10dp"
-                android:text="Проблемы с арендой велосипеда" />
+                android:text="Проблемы с арендованным велосипедом" />
 
             <Button
                 android:id="@+id/button13"
@@ -92,7 +92,7 @@
                 android:backgroundTint="#5CA2EF"
                 android:drawableTop="@drawable/ic_arendatory"
                 android:paddingTop="25dp"
-                android:text="Проблемы с арендаторами велосипеда" />
+                android:text="Проблемы владельца сервиса байкшеринга" />
         </LinearLayout>
 
         <Button
