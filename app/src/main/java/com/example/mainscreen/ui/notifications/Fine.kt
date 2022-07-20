@@ -27,6 +27,16 @@ class Fine : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun hyper8_1(view : View){
+        intent = Intent(this, Hyper8_1::class.java)
+        startActivity(intent)
+    }
+
+    fun hyper8_2(view : View){
+        intent = Intent(this, Hyper8_2::class.java)
+        startActivity(intent)
+    }
+
     fun protocol(view : View){
         intent = Intent(this, Protocol::class.java)
         startActivity(intent)

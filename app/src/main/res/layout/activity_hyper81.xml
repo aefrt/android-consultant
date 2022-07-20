@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.Hyper8_1">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="134. При получении объяснений лица, в отношении которого ведется производство по делу об административном правонарушении, потерпевшего или свидетеля сотрудник выясняет обстоятельства произошедшего и фиксирует в необходимых случаях следующие сведения:\n\nдата, время и место составления;\n\nдолжность, специальное звание, фамилия и инициалы сотрудника, получившего объяснения;\n\nсведения о лице, в отношении которого ведется производство по делу об административном правонарушении, потерпевшем или свидетеле с указанием их фамилии, имени, отчества (при наличии), даты и места рождения, места работы и места жительства или места пребывания, а также номера его телефона, вида и реквизитов документа, удостоверяющего его личность;\n\nсведения о разъяснении опрашиваемому лицу прав и обязанностей, предусмотренных Кодексом, статьей 51 Конституции Российской Федерации, в том числе о предупреждении свидетеля об административной ответственности за дачу заведомо ложных показаний, в соответствии со статьей 17.9 Кодекса;\n\nсведения о транспортном средстве (марка, модель, государственный регистрационный знак, сведения о собственнике транспортного средства);\n\nсведения о прохождении очередного технического осмотра и техническом состоянии транспортного средства в момент правонарушения;\n\nсведения о погодных условиях, условиях видимости и обзорности, наличии, исправности и достаточности средств искусственного освещения в темное время суток;\n\nсведения о состоянии дорожного покрытия (обочин, тротуаров, пешеходных дорожек, разделительной полосы, и другие), наличии и состоянии технических средств регулирования дорожного движения (разметка, дорожные знаки, светофоры, ограждения и другие);\n\nсведения о действиях (бездействии) субъекта правонарушения, характеризующих объективную сторону состава административного правонарушения;\n\nсведения о поведении других лиц (участников дорожного движения, должностных лиц), о свидетелях правонарушения;\n\nиные сведения, имеющие отношение к делу;\n\nотметка о согласии либо несогласии лица с вменяемым правонарушением, мотивы, собственные версии, смягчающие вину или оправдывающие обстоятельства, доводы в свою защиту, ходатайства, жалобы и иные имеющие значение для дела сведения."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="151. Лицу, в отношении которого составлен протокол об административном правонарушении, должна быть предоставлена возможность ознакомления с ним. Лицо вправе представить объяснения и замечания по содержанию протокола, которые отражаются в протоколе либо прилагаются к нему."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="168. Копия постановления по делу об административном правонарушении вручается под расписку лицу, в отношении которого оно вынесено, а также потерпевшему по его просьбе либо высылается указанным лицам в течение трех дней со дня вынесения указанного постановления."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:text="211. О досмотре транспортного средства в соответствии с положениями статьи 27.9 Кодекса составляется протокол 1 либо делается соответствующая запись в протоколе об административном задержании. Указанная запись возможна только в случае осуществления досмотра транспортного средства по основаниям, предусмотренным Кодексом.\n\n1 В целях автоматизированной обработки содержания протокола о досмотре транспортного средства органами внутренних дел может использоваться рекомендуемый образец (приложение N 12 к Административному регламенту).\n\nМатериалы, полученные при осуществлении досмотра с применением фото- и киносъемки, видеозаписи, иных установленных способов фиксации вещественных доказательств, прилагаются к соответствующему протоколу."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

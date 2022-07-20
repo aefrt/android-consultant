@@ -85,6 +85,7 @@
                     android:background="#E1DEDE"
                     android:gravity="center"
                     android:text="Статьи 290, 291 УК РФ"
+                    android:onClick="hyper8_2"
                     android:textColor="#3F51B5"
                     android:textSize="12sp" />
 
