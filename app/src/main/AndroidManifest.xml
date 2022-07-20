@@ -16,34 +16,34 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
-            android:name=".Adm931"
+            android:name=".ui.notifications.Adm931"
             android:exported="false" />
         <activity
-            android:name=".Police5"
+            android:name=".ui.notifications.Police5"
             android:exported="false" />
         <activity
-            android:name=".Adm848991"
+            android:name=".ui.notifications.Adm848991"
             android:exported="false" />
         <activity
-            android:name=".Adm51132"
+            android:name=".ui.notifications.Adm51132"
             android:exported="false" />
         <activity
-            android:name=".Konst51"
+            android:name=".ui.notifications.Konst51"
             android:exported="false" />
         <activity
-            android:name=".Koap2742245"
+            android:name=".ui.notifications.Koap2742245"
             android:exported="false" />
         <activity
-            android:name=".More2Button2"
+            android:name=".ui.notifications.More2Button2"
             android:exported="false" />
         <activity
-            android:name=".More2Button1"
+            android:name=".ui.notifications.More2Button1"
             android:exported="false" />
         <activity
-            android:name=".Koap12252"
+            android:name=".ui.notifications.Koap12252"
             android:exported="false" />
         <activity
-            android:name=".Pdd611"
+            android:name=".ui.notifications.Pdd611"
             android:exported="false" />
         <activity
             android:name=".ui.dashboard.Spravochnaya"

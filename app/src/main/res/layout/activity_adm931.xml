@@ -8,9 +8,12 @@
 
     <TextView
         android:id="@+id/textView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="346dp"
+        android:layout_height="467dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
         android:text="93. Сотрудник вправе предложить участнику дорожного движения: 93.1. Выйти из транспортного средства в случаях: наличия у водителя признаков опьянения &lt;2&gt; и (или) болезненного состояния; -------------------------------- &lt;2&gt; Подпункт 227.1 пункта 227 Административного регламента. для проведения личного досмотра, осмотра или досмотра транспортного средства и груза; для проведения в присутствии водителя (владельца транспортного средства) сверки номеров агрегатов и узлов транспортного средства с записями в регистрационных документах; когда требуется его участие в осуществлении процессуальных действий, а также оказании помощи другим участникам дорожного движения или сотрудникам полиции; необходимости устранения технической неисправности транспортного средства или нарушений правил перевозки грузов; когда его поведение создает угрозу личной безопасности сотрудника."
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="91dp" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

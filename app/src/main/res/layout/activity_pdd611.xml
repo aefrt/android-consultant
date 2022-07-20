@@ -8,17 +8,25 @@
 
     <TextView
         android:id="@+id/textView85"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="345dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
         android:text="6.11. Требование об остановке транспортного средства подается с помощью громкоговорящего устройства или жестом руки, направленной на транспортное средство. Водитель должен остановиться в указанном ему месте. "
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="145dp" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView86" />
 
     <TextView
         android:id="@+id/textView86"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="164dp"
+        android:gravity="center"
         android:text="Пункт 6.11 ПДД"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="60dp" />
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,15 +10,23 @@
         android:id="@+id/textView97"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
         android:text="Статья 51 "
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="42dp" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView98"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="330dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
         android:text="1. Никто не обязан свидетельствовать против себя самого, своего супруга и близких родственников, круг которых определяется федеральным законом. 2. Федеральным законом могут устанавливаться иные случаи освобождения от обязанности давать свидетельские показания."
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="105dp" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView97" />
 </androidx.constraintlayout.widget.ConstraintLayout>
