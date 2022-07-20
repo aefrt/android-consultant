@@ -201,6 +201,15 @@
                 android:layout_width="23dp"
                 android:layout_height="26dp"
                 app:srcCompat="@drawable/end" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="174dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="120dp"
+                android:backgroundTint="#FFEB3B"
+                android:onClick="fine_more2"
+                android:text="Мне выписывают штраф" />
         </LinearLayout>
     </ScrollView>
 
