@@ -157,11 +157,11 @@
                         android:background="#F33131" />
 
                     <ImageView
-                        android:id="@+id/imageView12"
+                        android:id="@+id/imageView22"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="27dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/seven" />
+                        app:srcCompat="@drawable/e" />
 
                     <View
                         android:id="@+id/view8"
