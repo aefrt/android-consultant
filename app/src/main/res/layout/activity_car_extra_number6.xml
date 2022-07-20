@@ -40,7 +40,7 @@
             android:layout_weight="1"
             android:text="Осмотр - это визуальная проверка автомобиля. Трогать вещи инспектор не вправе - иначе это уже досмотр. "
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
 
     </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_weight="1"
             android:text="Основания для осмотра:\n1. Есть ориентировка или информация, что машину используют для чего-то незаконного.\n2. Инспектор хочет сверить маркировку машины с документами.\n3. Кажется, что на самом деле везут не тот груз, который числится по документам."
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
     </LinearLayout>
 
     <LinearLayout
@@ -96,6 +96,6 @@
             android:layout_weight="1"
             android:text="Сотрудник ГИБДД проводит осмотр в присутствии водителя. При этом пассажирам и водителю покидать салон автомобиля не обязательно. Инспектор имеет право осмотреть багажник, бардачок и прочее, но водитель должен быть не против всех этих действий - иначе это досмотр."
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

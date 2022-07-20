@@ -41,7 +41,7 @@
             android:layout_weight="1"
             android:text="1. Помните, что по закону о полиции полицейские могут вскрыть автомобиль и проникнуть в него. "
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
     </LinearLayout>
 
     <LinearLayout
@@ -64,7 +64,7 @@
             android:layout_weight="1"
             android:text="Вскрытие проводится, если есть подозрения, что в транспортном средстве находятся без специального разрешения предметы или вещи, изъятые из оборота или ограниченные в обороте (например, оружие)."
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
 
     </LinearLayout>
 
@@ -84,7 +84,7 @@
             android:layout_weight="1"
             android:text="Но строго в определенных случаях:\n- для спасения жизни граждан\n- для обеспечения безопасности при массовых беспорядках и чрезвычайных ситуациях\n- для задержания преступника\n- для пресечения преступления\n- при подозрении, что правонарушитель находится в состоянии алкогольного опьянения\n- для осмотра автомобиля, в котором могут находится вещи, изъятые из  оборота\- для проверки сообщения об угрозе террористического акта\n- для установления обстоятельств несчастного случая "
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
     </LinearLayout>
 
     <LinearLayout
@@ -103,7 +103,7 @@
             android:layout_weight="1"
             android:text="2. Способ вскрытия автомобиля законодательно не установлен. На практике чаще всего выбивают стекло. "
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
     </LinearLayout>
 
     <LinearLayout
@@ -122,7 +122,7 @@
             android:layout_weight="1"
             android:text="3. Автомобиль может быть вскрыт как в присутствии собственника, так и без него. В таком случае собственник должен быть проинформирован в течение 24 часов."
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
     </LinearLayout>
 
     <LinearLayout
@@ -141,6 +141,6 @@
             android:layout_weight="1"
             android:text="4. Вы вправе обжаловать действия полицейских и потребовать возмещения ущерба, если считаете, что ваши права были нарушены. "
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

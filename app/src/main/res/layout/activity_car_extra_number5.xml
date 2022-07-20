@@ -40,7 +40,7 @@
             android:layout_weight="1"
             android:text="Однако не стоит злоупотреблять съемкой и провоцировать конфликтную ситуацию. Если надо, снимайте, обратив внимание на номер нагрудного знака инспектора, это позволит идентифицировать конкретного сотрудника."
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
 
     </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_weight="1"
             android:text="В некоторых случаях съемка может быть запрещена: для этого нужно основание и специальный документ (например, о проведении оперативного мероприятия, в случае защиты гостайны, в случае военного положения и т.д.)"
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
     </LinearLayout>
 
     <LinearLayout
