@@ -76,6 +76,7 @@
             android:layout_marginTop="400dp"
             android:layout_weight="1"
             android:background="#88CCC6C6"
+            android:onClick="law"
             android:text="Пункт 93.1 Административного регламента"
             android:textColor="#3F51B5" />
     </LinearLayout>

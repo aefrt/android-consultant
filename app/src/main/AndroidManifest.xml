@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".Adm931"
+            android:exported="false" />
+        <activity
             android:name=".Police5"
             android:exported="false" />
         <activity
