@@ -76,6 +76,7 @@
             android:layout_marginTop="330dp"
             android:layout_weight="1"
             android:background="#88CCC6C6"
+            android:onClick="carextrazakonsix"
             android:text="Пункты 197-201 Административного регламента"
             android:textColor="#3F51B5" />
     </LinearLayout>
