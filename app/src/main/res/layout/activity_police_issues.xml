@@ -46,6 +46,13 @@
                     android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="43dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icons8_____100_1" />
             </LinearLayout>
 
             <LinearLayout
