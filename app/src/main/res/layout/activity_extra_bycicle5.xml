@@ -4,13 +4,250 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.ExtraBycicle5">
+    tools:context=".ui.notifications.Extra">
 
-    <TextView
-        android:id="@+id/textView117"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="224dp"
-        tools:layout_editor_absoluteY="258dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Велосипед  сломался, что делать?"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/one" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="4dp"
+                        android:layout_height="43dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        app:srcCompat="@drawable/two" />
+
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="6dp"
+                        android:layout_height="52dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tree" />
+
+                    <View
+                        android:id="@+id/view"
+                        android:layout_width="11dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/four" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="3dp"
+                        android:layout_height="145dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/five" />
+
+                    <View
+                        android:id="@+id/view5"
+                        android:layout_width="8dp"
+                        android:layout_height="295dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/six" />
+
+                    <View
+                        android:id="@+id/view8"
+                        android:layout_width="6dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/end" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:text="Постарайтесь доставить велосипед до ближайшей велостанции. "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Сфотографируйте повреждения на случай возможных разногласий."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="378dp"
+                        android:layout_height="57dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Припаркуйте велосипед и дождитесь уведомления о завершении поездки."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Позвоните в службу поддержки сервиса велопроката, сообщите им номер станции, велосипеда и опишите поломку."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Предоставьте письменное описание обстоятельств события по требованию арендодателя (сервиса велопроката). "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView117"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Кто должен отвечать за поломку?  Если велосипед изначально был неисправен, вы не должны оплачивать ремонт. Риск повреждения велосипеда или его случайной гибели во время поездки лежит по общему правилу на владельце сервиса, за исключением случаев, когда дефекты являются следствием нарушения правил эксплуатации велосипеда (если человек использовал велосипед не по назначению). Однако многие сервисы предусматривают в договоре правило, что ответственность лежит на пользователя при любой поломке, поэтому важно:  ознакомиться с условиями вашего договора ознакомиться с программой страховки и узнать, покрывает ли она ваш случай." />
+
+                    <Button
+                        android:id="@+id/button46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="250dp"
+                        android:layout_weight="1"
+                        android:text="Статья 629 ГК РФ" />
+
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="match_parent"
+                        android:layout_height="104dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="В следующий раз обязательно тщательно осматривайте велосипед перед поездкой на предмет повреждений и технических неисправностей. "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
