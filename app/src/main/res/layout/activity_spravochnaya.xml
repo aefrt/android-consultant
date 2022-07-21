@@ -6,63 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".ui.dashboard.Spravochnaya">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/textView106"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:text="Административные правонарушения"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-            <SearchView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="50dp" >
+        <TextView
+            android:id="@+id/textView107"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="Действие или бездействие человека или организации, которые запрещены законом и за которые установлена административная ответственность (ч. 1 ст. 2.1 КоАП РФ). Например, проезд на красный свет - это правонарушение, за совершение которого грозит штраф."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
-            </SearchView>
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="О наиболее часто встречающихся правонарушениях и наказаниях за них можно посмотреть по ссылке"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="20dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView106"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:layout_weight="1"
-                    android:text="TextView" />
-
-                <androidx.appcompat.widget.SwitchCompat
-                    android:id="@+id/switch_compat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="48dp"
-                    android:checked="false"
-                    android:textOff="OFF"
-                    android:textOn="ON"
-                    android:theme="@style/MySwitch"
-                    app:showText="false" />
-
-                <TextView
-                    android:id="@+id/textView107"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_weight="1"
-                    android:text="TextView" />
-            </LinearLayout>
-
-        </LinearLayout>
-    </ScrollView>
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="130dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="#2196F3"
+            android:drawableTop="@drawable/link"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Перейти по ссылке"
+            android:textColor="@color/black"
+            android:onClick="link"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
