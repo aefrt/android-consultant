@@ -69,6 +69,7 @@
                     android:layout_weight="0"
                     android:background="#E1DEDE"
                     android:gravity="center"
+                    android:onClick="carextrazakonseventwo"
                     android:text="Пункты 227-233 Административного регламента"
                     android:textColor="#3F51B5"
                     android:textSize="12sp" />

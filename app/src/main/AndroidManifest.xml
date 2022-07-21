@@ -16,38 +16,8 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
-            android:name=".ui.notifications.Adm931"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.Police5"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.Adm848991"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.Adm51132"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.Konst51"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.Koap2742245"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.More2Button2"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.More2Button1"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.Koap12252"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.Pdd611"
-            android:exported="false" />
-        <activity
-            android:name=".ui.notifications.Hyper8_4"
-            android:parentActivityName=".MainActivity">
+            android:name=".ui.notifications.Car_extra_zakon_seven_three"
+            android:parentActivityName=".ui.notifications.Exam_hospital">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
@@ -55,44 +25,8 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".ui.notifications.Hyper8_3"
-            android:parentActivityName=".MainActivity">
-
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
-            android:name=".ui.notifications.Hyper8_2"
-            android:parentActivityName=".MainActivity">
-
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
-            android:name=".ui.notifications.Hyper8_1"
-            android:parentActivityName=".MainActivity">
-
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
-            android:name=".ui.dashboard.Spravochnaya"
-            android:parentActivityName=".MainActivity">
-
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
-            android:name=".ui.notifications.Sos_Instruct"
-            android:parentActivityName=".MainActivity">
+            android:name=".ui.notifications.Car_extra_zakon_seven_two"
+            android:parentActivityName=".ui.notifications.Exam_GIBBD">
 
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data

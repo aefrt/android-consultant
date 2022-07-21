@@ -17,4 +17,9 @@ class Exam_GIBBD : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun carextrazakonseventwo(view : View){
+        intent = Intent(this, Car_extra_zakon_seven_two::class.java)
+        startActivity(intent)
+    }
+
 }
