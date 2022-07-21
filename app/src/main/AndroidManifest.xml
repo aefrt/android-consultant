@@ -16,6 +16,33 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".ui.notifications.Zaveshenie_poezdki_money"
+            android:parentActivityName=".ui.notifications.Zavershenie_poezdki">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Zavershenie_poesdki_pravilno"
+            android:parentActivityName=".ui.notifications.Zavershenie_poezdki">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Zavershenie_poezdki"
+            android:parentActivityName=".ui.notifications.Extra_bicycle">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ui.notifications.Extra_bicycle"
             android:parentActivityName=".MainActivity">
 
