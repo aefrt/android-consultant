@@ -46,6 +46,7 @@
                 android:layout_height="59dp"
                 android:layout_weight="1"
                 android:text="Велосипед сломался, что делать?"
+                android:onClick="extra5"
                 android:textSize="8sp" />
 
             <Button
@@ -54,6 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Велосипед украли во время поездки, что делать?"
+                android:onClick="extra6"
                 android:textSize="8sp" />
 
             <Button
@@ -62,6 +64,7 @@
                 android:layout_height="69dp"
                 android:layout_weight="1"
                 android:text="Я попал в ДТП на арендованном велосипеде, что делать?"
+                android:onClick="extra7"
                 android:textSize="8sp" />
 
             <Button
@@ -70,6 +73,7 @@
                 android:layout_height="68dp"
                 android:layout_weight="1"
                 android:text="Я нарушил ПДД на арендованном велосипеде, что делать?"
+                android:onClick="extra8"
                 android:textSize="8sp" />
         </LinearLayout>
 

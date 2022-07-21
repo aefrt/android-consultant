@@ -16,6 +16,18 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".ui.notifications.ExtraBycicle5"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.ExtraBycicle6"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.ExtraBycicle7"
+            android:exported="false" />
+        <activity
+            android:name=".ui.notifications.ExtraBycicle8"
+            android:exported="false" />
+        <activity
             android:name=".ui.notifications.Extra_bicycle"
             android:parentActivityName=".MainActivity">
 

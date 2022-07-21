@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.ExtraBycicle7">
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Проверьте свои конечности, пошевелите ногами, пальцами, проверьте лицо, в целом — наличие травм.   Если у вас ничего не болит, это не значит, что ничего не сломано . 2  Если вы не можете пошевелиться, не позволяйте себя двигать, таскать, перемещать или сажать без острой необходимости покинуть место происшествия. Это может оказаться хуже, чем если вы просто дождетесь скорую.  3 Если вы можете встать, у вас ничего не болит и нет видимых травм, убедитесь что вторая сторона ДТП не нуждается в первой медицинской помощи, остается на месте происшествия и не пытается скрыться.  Дождитесь, чтобы водитель заглушил мотор и вышел из авто. Убедитесь, что водитель также не проявляет агрессии. Вежливо попросите успокоиться, если потребуется. 4 Вызовите экстренные службы: полицию, и, если нужно, скорую помощь по единому телефону 112.  Обязательно вызывайте скорую, если чувствуете недомогание. 112"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="186dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

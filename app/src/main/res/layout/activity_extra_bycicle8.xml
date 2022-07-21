@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.ExtraBycicle8">
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мне выписывают штраф за нарушение ПДД на арендованном велосипеде, что делать?  Ознакомьтесь с документом, который составляется в отношении вас Потребуйте копию документа. Сразу ничего платить не нужно.   Ответственность за нарушение ПДД несет водитель, а не владелец сервиса.  Однако помните о страховке, которая может покрывать возможные расходы на штраф или возмещение ущерба.   Читайте подробнее, как вести себя, если вам выписывают штраф.  МНЕ ВЫПИСЫВАЮТ ШТРАФ"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="132dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.example.mainscreen.ui.notifications
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mainscreen.R
@@ -41,5 +42,25 @@ class Extra_bicycle : AppCompatActivity() {
                 navigate(head)
             }
         })*/
+    }
+
+    fun extra5(view : View){
+        intent = Intent(this, ExtraBycicle5::class.java)
+        startActivity(intent)
+    }
+
+    fun extra6(view : View){
+        intent = Intent(this, ExtraBycicle6::class.java)
+        startActivity(intent)
+    }
+
+    fun extra7(view : View){
+        intent = Intent(this, ExtraBycicle7::class.java)
+        startActivity(intent)
+    }
+
+    fun extra8(view : View){
+        intent = Intent(this, ExtraBycicle8::class.java)
+        startActivity(intent)
     }
 }
