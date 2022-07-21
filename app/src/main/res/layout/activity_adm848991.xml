@@ -10,6 +10,8 @@
         android:id="@+id/textView105"
         android:layout_width="381dp"
         android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
         android:text="84. Основаниями для предъявления сотрудником требования об остановке водителем транспортного средства являются: "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,6 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="91. При обнаружении достаточных данных, указывающих на наличие события административного правонарушения, сотрудник разъясняет лицу, какое правонарушение им допущено и в чем оно заключается. При этом выясняет, имеют ли место обстоятельства, исключающие производство по делу об административном правонарушении, предусмотренные Кодексом 4. "
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="288dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
