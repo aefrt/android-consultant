@@ -33,6 +33,11 @@
             android:backgroundTint="#6DAFF4"
             android:text="Во время поездки" />
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcView_ending"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <Button
             android:id="@+id/button40"
             android:layout_width="match_parent"
@@ -50,5 +55,6 @@
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
             android:text="Оплата" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
