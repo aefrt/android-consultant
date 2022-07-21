@@ -84,6 +84,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
+            android:onClick="bicyclezaversheniepoesdki"
             android:text="Завершение поездки" />
 
         <Button

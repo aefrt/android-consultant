@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.Zavershenie_poesdki_pravilno">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:text="Как правильно завершить прокат?"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Взятый напрокат велосипед нужно вернуть на работающую велостанцию проката от сервиса, в котором вы брали велосипед — главное, чтобы на ней были свободные стойки нужного типа (стойки бывают двух типов: для обычных механических велосипедов и для велосипедов с электродвигателем).\n\nОбратите внимание, возврат велосипеда в порт неправильного типа запрещен, за нарушение правила предусмотрен штраф.\n\nЧтобы вернуть велосипед:\n\n- установите велосипед в порт до упора;\n- убедитесь, что велосипед заблокирован в порту, а на его дисплее отобразилась надпись: «Возврат ок»  («Конец»);\n- дождитесь подтверждения по push-уведомлению или СМС;\n- убедитесь, что получили подтверждение, что система приняла ваш велосипед.\n\nОбязательно убедитесь, что система приняла ваш велосипед. В противном случае поездка не будет завершена, и спустя 48 часов с момента старта проката с банковской карты, которой был оплачен доступ, спишется штраф — 30 тысяч рублей."
+            android:textColor="@color/black"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
