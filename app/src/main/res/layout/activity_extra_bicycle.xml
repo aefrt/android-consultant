@@ -33,10 +33,45 @@
             android:backgroundTint="#6DAFF4"
             android:text="Во время поездки" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rcView_ending"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="107dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="104dp"
+                android:layout_height="59dp"
+                android:layout_weight="1"
+                android:text="Велосипед сломался, что делать?"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Велосипед украли во время поездки, что делать?"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="83dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:text="Я попал в ДТП на арендованном велосипеде, что делать?"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="79dp"
+                android:layout_height="68dp"
+                android:layout_weight="1"
+                android:text="Я нарушил ПДД на арендованном велосипеде, что делать?"
+                android:textSize="8sp" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/button40"

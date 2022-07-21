@@ -16,6 +16,7 @@ class Extra_bicycle : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_extra_bicycle)
 
+        /* bycicle with rcview
         val recyclerView = findViewById<RecyclerView>(R.id.rcView_ending)
         val adapter = DocAdapter()
         adapter.addDoc(Doc(R.drawable.pattern, "Велосипед сломался, что делать?"))
@@ -39,6 +40,6 @@ class Extra_bicycle : AppCompatActivity() {
             override fun openDoc(head: String) {
                 navigate(head)
             }
-        })
+        })*/
     }
 }
