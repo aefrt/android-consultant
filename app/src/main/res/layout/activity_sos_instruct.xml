@@ -45,7 +45,7 @@
                     android:textSize="34sp" />
 
                 <Button
-                    android:id="@+id/but_call"
+                    android:id="@+id/button_call"
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_marginLeft="100dp"

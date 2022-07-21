@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sos_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="ГИБДД во всех регионах на случай ДТП"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:text="УГИБДД ГУ МВД России по г. Москве"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/all_regions_number1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8(495) 623-70-70"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/all_regions_call1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F1564A"
+                    android:text="ПОЗВОНИТЬ"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:text="УГИБДД ГУ МВД России по Московской области"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/all_regions_number2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8(495) 688-81-71"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/all_regions_call2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F1564A"
+                    android:text="ПОЗВОНИТЬ"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/all_regions_number3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8(499) 763-11-83"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/all_regions_call3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F1564A"
+                    android:text="ПОЗВОНИТЬ"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/all_regions_number4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8(495) 688-64-10"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/all_regions_call4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F1564A"
+                    android:text="ПОЗВОНИТЬ"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:text="УГИБДД ГУ МВД России по г. Санкт-петербургу и Ленинградской области"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/all_regions_number5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="8(812) 573-27-64"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/all_regions_call5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F1564A"
+                    android:text="ПОЗВОНИТЬ"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

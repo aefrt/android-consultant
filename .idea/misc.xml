@@ -54,12 +54,17 @@
         <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/messages_list_item.xml" value="0.1641337386018237" />
         <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/postanovlenie.xml" value="0.22" />
         <entry key="..\:/Users/79169/AndroidStudioProjects/new_proj_000/android-consultant/android-consultant/app/src/main/res/layout/simple_list_item1.xml" value="0.1641337386018237" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/drawable/thumb.xml" value="0.188" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/drawable/track.xml" value="0.188" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_all_regions.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_dashboard_new_page.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_extra.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_iget_afine.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_menu_instructions.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_police_issues.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_sos.xml" value="0.33" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_sos_instruct.xml" value="0.3319746376811594" />
+        <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/activity_spravochnaya.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/fragment_notifications.xml" value="0.3319746376811594" />
         <entry key="..\:/Users/dimal/AndroidStudioProjects/android-consultant/android-consultant/app/src/main/res/layout/number_item.xml" value="0.3319746376811594" />
         <entry key="app/src/main/res/layout-v31/activity_more2.xml" value="0.16893115942028986" />
@@ -77,9 +82,8 @@
         <entry key="app/src/main/res/layout/activity_display_message.xml" value="0.15050506591796875" />
         <entry key="app/src/main/res/layout/activity_dosmotr.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_exam.xml" value="0.3092006296351336" />
-        <entry key="app/src/main/res/layout/activity_extra.xml" value="0.21969146728515626" />
-        <entry key="app/src/main/res/layout/activity_fine.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_extra.xml" value="0.16032608695652173" />
+        <entry key="app/src/main/res/layout/activity_fine.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_iget_afine.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_inspector_fine.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_koap12252.xml" value="0.16893115942028986" />
@@ -93,7 +97,6 @@
         <entry key="app/src/main/res/layout/activity_more3.xml" value="0.3335102910580843" />
         <entry key="app/src/main/res/layout/activity_nombertwo_moshennik.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_osmotr.xml" value="0.17028985507246377" />
-        <entry key="app/src/main/res/layout/activity_police_issues.xml" value="0.27795104980468754" />
         <entry key="app/src/main/res/layout/activity_pdd611.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_police5.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_police_issues.xml" value="0.24179620034542315" />
