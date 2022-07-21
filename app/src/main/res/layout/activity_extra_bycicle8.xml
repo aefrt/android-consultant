@@ -4,13 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.ExtraBycicle8">
+    tools:context=".ui.notifications.Extra">
 
-    <TextView
-        android:id="@+id/textView114"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Мне выписывают штраф за нарушение ПДД на арендованном велосипеде, что делать?  Ознакомьтесь с документом, который составляется в отношении вас Потребуйте копию документа. Сразу ничего платить не нужно.   Ответственность за нарушение ПДД несет водитель, а не владелец сервиса.  Однако помните о страховке, которая может покрывать возможные расходы на штраф или возмещение ущерба.   Читайте подробнее, как вести себя, если вам выписывают штраф.  МНЕ ВЫПИСЫВАЮТ ШТРАФ"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="132dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Я нарушил ПДД на арендованном велосипеде"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/end" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/end" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/end" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textView116"
+                        android:layout_width="368dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Мне выписывают штраф за нарушение ПДД на арендованном велосипеде, что делать?  Ознакомьтесь с документом, который составляется в отношении вас Потребуйте копию документа. Сразу ничего платить не нужно.   Ответственность за нарушение ПДД несет водитель, а не владелец сервиса.  Однако помните о страховке, которая может покрывать возможные расходы на штраф или возмещение ущерба. " />
+
+                    <TextView
+                        android:id="@+id/textView131"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text=" Читайте подробнее, как вести себя, если вам выписывают штраф. " />
+
+                    <Button
+                        android:id="@+id/button50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="bycicleFineHowTo"
+                        android:text="Мне выписывают штраф" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

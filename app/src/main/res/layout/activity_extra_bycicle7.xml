@@ -70,8 +70,8 @@
 
                     <View
                         android:id="@+id/view4"
-                        android:layout_width="6dp"
-                        android:layout_height="52dp"
+                        android:layout_width="8dp"
+                        android:layout_height="117dp"
                         android:layout_marginLeft="13dp"
                         android:layout_weight="1"
                         android:background="#F33131" />
@@ -87,6 +87,111 @@
                         android:id="@+id/view8"
                         android:layout_width="8dp"
                         android:layout_height="175dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tree" />
+
+                    <View
+                        android:id="@+id/view10"
+                        android:layout_width="10dp"
+                        android:layout_height="117dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tree" />
+
+                    <View
+                        android:id="@+id/view11"
+                        android:layout_width="10dp"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tree" />
+
+                    <View
+                        android:id="@+id/view12"
+                        android:layout_width="11dp"
+                        android:layout_height="121dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tree" />
+
+                    <View
+                        android:id="@+id/view13"
+                        android:layout_width="10dp"
+                        android:layout_height="123dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tree" />
+
+                    <View
+                        android:id="@+id/view14"
+                        android:layout_width="6dp"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tree" />
+
+                    <View
+                        android:id="@+id/view15"
+                        android:layout_width="10dp"
+                        android:layout_height="75dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="1"
+                        android:background="#F33131" />
+
+                    <ImageView
+                        android:id="@+id/imageView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tree" />
+
+                    <View
+                        android:id="@+id/view16"
+                        android:layout_width="10dp"
+                        android:layout_height="90dp"
                         android:layout_marginLeft="13dp"
                         android:layout_weight="1"
                         android:background="#F33131" />
@@ -108,10 +213,10 @@
                     <TextView
                         android:id="@+id/textView45"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="41dp"
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
-                        android:text="Позвоните в полицию по телефону 102 или 112."
+                        android:text="Проверьте свои конечности, пошевелите ногами, пальцами, проверьте лицо, в целом — наличие травм. "
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -122,16 +227,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="В полиции необходимо написать заявление и взять талон-уведомление." />
-
-                    <Button
-                        android:id="@+id/button47"
-                        android:layout_width="104dp"
-                        android:layout_height="28dp"
-                        android:layout_marginLeft="120dp"
-                        android:layout_weight="1"
-                        android:text="112"
-                        android:textSize="8sp" />
+                        android:text=" Если у вас ничего не болит, это не значит, что ничего не сломано ." />
 
                     <TextView
                         android:id="@+id/textView50"
@@ -140,19 +236,26 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="30dp"
                         android:layout_weight="1"
-                        android:text="Позвоните в службу поддержки вашего сервиса байкшеринга."
+                        android:text=" Если вы не можете пошевелиться, не позволяйте себя двигать, таскать, перемещать или сажать без острой необходимости покинуть место происшествия."
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/textView114"
+                        android:layout_width="310dp"
+                        android:layout_height="32dp"
+                        android:layout_weight="1"
+                        android:text="Это может оказаться хуже, чем если вы просто дождетесь скорую. " />
+
+                    <TextView
                         android:id="@+id/textView25"
                         android:layout_width="378dp"
-                        android:layout_height="57dp"
+                        android:layout_height="106dp"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="30dp"
                         android:layout_weight="1"
-                        android:text="Сфотографируйте дефекты,"
+                        android:text="Если вы можете встать, у вас ничего не болит и нет видимых травм, убедитесь что вторая сторона ДТП не нуждается в первой медицинской помощи, остается на месте происшествия и не пытается скрыться. "
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -162,14 +265,145 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="если велосипед повредили. Это поможет на случай разногласий.  Чаще всего правилами пользования велосипедами устанавливается полная ответственность арендатора за сохранность и комплектацию велосипеда с момента старта проката, поэтому важно:  " />
+                        android:text="Дождитесь, чтобы водитель заглушил мотор и вышел из авто. Убедитесь, что водитель также не проявляет агрессии. Вежливо попросите успокоиться, если потребуется." />
 
                     <TextView
-                        android:id="@+id/textView119"
+                        android:id="@+id/textView115"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Вызовите экстренные службы: полицию, и, если нужно, скорую помощь по единому телефону 112. "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView120"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="ознакомиться с условиями вашего договора ознакомиться с программой страховки и узнать, покрывает ли она ваш случай." />
+                        android:text="Обязательно вызывайте скорую, если чувствуете недомогание." />
+
+                    <Button
+                        android:id="@+id/button48"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="120dp"
+                        android:layout_weight="1"
+                        android:text="112"
+                        android:textSize="8sp" />
+
+                    <TextView
+                        android:id="@+id/textView121"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Попросите водителя выставить знак аварийной остановки и включить аварийную сигнализацию."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView122"
+                        android:layout_width="392dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Не перемещайте велосипед, другие следы ДТП, постарайтесь зафиксировать их с помощью фото и видео. Запишите контакты очевидцев происшествия."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView123"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Это поможет доказать вашу правоту в случае возможных разногласий." />
+
+                    <TextView
+                        android:id="@+id/textView124"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Ожидайте прибытия сотрудников полиции, оказывайте им содействие при восстановлении картины ДТП, проследите, чтобы протокол был заполнен правильно."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button49"
+                        android:layout_width="158dp"
+                        android:layout_height="44dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_weight="1"
+                        android:onClick="bycicleProtocolHowTo"
+                        android:text="Как вести себя при составлении протокола?"
+                        android:textSize="8sp" />
+
+                    <TextView
+                        android:id="@+id/textView125"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Сфотографуйте протокол, запишите данные сотрудников ГИБДД, его оформлявших."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView126"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="После окончания оформления покиньте место ДТП." />
+
+                    <TextView
+                        android:id="@+id/textView127"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Свяжитесь с поддержкой сервиса велопроката, подробно опишите произошедшее."
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView128"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="При необходимости, предоставьте подтверждающие документы." />
+
+                    <TextView
+                        android:id="@+id/textView129"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Изучите вашу страховку,"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView130"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="как правило, случаи ДТП в нее включаются. Если это так, обратитесь за страховым возмещением в страховую организацию." />
 
                     <LinearLayout
                         android:layout_width="match_parent"
