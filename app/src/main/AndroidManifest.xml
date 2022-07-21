@@ -16,6 +16,24 @@
         android:theme="@style/Theme.MainScreen"
         tools:targetApi="31">
         <activity
+            android:name=".ui.notifications.Car_extra_zakon_seven_three"
+            android:parentActivityName=".ui.notifications.Exam_hospital">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.notifications.Car_extra_zakon_seven_two"
+            android:parentActivityName=".ui.notifications.Exam_GIBBD">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".ui.notifications.Car_extra_zakon_seven"
             android:parentActivityName=".ui.notifications.Exam">
 
