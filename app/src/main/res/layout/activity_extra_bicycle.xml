@@ -17,11 +17,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/before_trip"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
+            android:onClick="before"
             android:text="Перед поездкой" />
 
         <Button
@@ -78,7 +79,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button40"
+            android:id="@+id/contract"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -88,12 +89,13 @@
             android:text="Завершение поездки" />
 
         <Button
-            android:id="@+id/button41"
+            android:id="@+id/zalog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
+            android:onClick="pay"
             android:text="Оплата" />
 
     </LinearLayout>
