@@ -1,10 +1,12 @@
 package com.example.mainscreen.ui.notifications
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class IHaveNotDocs: DialogFragment() {
@@ -20,6 +22,5 @@ class IHaveNotDocs: DialogFragment() {
         val height = (resources.displayMetrics.heightPixels).toInt()
         dialog!!.window?.setLayout(width, ViewGroup.LayoutParams.WRAP_CONTENT)
     }
-
 
 }

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class More1 : AppCompatActivity() {
@@ -19,6 +20,11 @@ class More1 : AppCompatActivity() {
 
     fun buttonPt2(view : View) {
         intent = Intent(this, Koap12252::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }

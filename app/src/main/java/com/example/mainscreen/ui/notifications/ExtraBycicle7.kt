@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class ExtraBycicle7 : AppCompatActivity() {
@@ -22,5 +23,10 @@ class ExtraBycicle7 : AppCompatActivity() {
         val dialIntent = Intent(Intent.ACTION_DIAL)
         dialIntent.data = Uri.parse("tel:" + "112")
         startActivity(dialIntent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 }

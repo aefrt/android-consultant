@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class NombertwoMoshennik : AppCompatActivity() {
@@ -15,5 +16,10 @@ class NombertwoMoshennik : AppCompatActivity() {
     fun nobertwocallpolice(view: View){
         intent = Intent(this, NumbertwoCallPoliceDouble::class.java)
         startActivity (intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 }

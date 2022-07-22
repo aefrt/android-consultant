@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Info : AppCompatActivity() {
@@ -16,5 +17,10 @@ class Info : AppCompatActivity() {
     fun link_bicycle(view : View){
         val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://docs.google.com/document/d/15-pKN7gh6bpm-HGZMyVAD-UuA7M20sEPwzZ7_joh_lU/edit?usp=sharing"))
         startActivity(browserIntent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 }

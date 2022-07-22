@@ -43,4 +43,9 @@ class Fine : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+    }
+
 }

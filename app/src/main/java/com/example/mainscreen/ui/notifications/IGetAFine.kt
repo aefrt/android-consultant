@@ -1,8 +1,10 @@
 package com.example.mainscreen.ui.notifications
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class IGetAFine : AppCompatActivity() {
@@ -16,5 +18,10 @@ class IGetAFine : AppCompatActivity() {
 
     fun navigate_bribe(view: View) {
         Bribe().show(supportFragmentManager, "Bribe")
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 }

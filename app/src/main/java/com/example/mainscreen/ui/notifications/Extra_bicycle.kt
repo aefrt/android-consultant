@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 import com.example.mainscreen.ui.dashboard.DashboardNewPage
 import com.example.mainscreen.ui.dashboard.Doc
@@ -84,6 +85,11 @@ class Extra_bicycle : AppCompatActivity() {
 
     fun bicyclezaversheniepoesdki(view : View) {
         intent = Intent(this, Zavershenie_poezdki::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 
