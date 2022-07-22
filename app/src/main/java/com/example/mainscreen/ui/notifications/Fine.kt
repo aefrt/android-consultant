@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Fine : AppCompatActivity() {
@@ -41,6 +42,5 @@ class Fine : AppCompatActivity() {
         intent = Intent(this, Protocol::class.java)
         startActivity(intent)
     }
-
 
 }

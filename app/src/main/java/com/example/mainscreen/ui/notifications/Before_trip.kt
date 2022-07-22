@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Before_trip : AppCompatActivity() {
@@ -33,6 +34,11 @@ class Before_trip : AppCompatActivity() {
 
     fun pdd_bicycle(view: View) {
         intent = Intent(this, Pdd_bicycle::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 

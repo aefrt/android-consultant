@@ -1,13 +1,16 @@
 package com.example.mainscreen.ui.notifications
 
+import android.content.Intent
 import android.graphics.Color
 import com.example.mainscreen.R
 import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
+import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mainscreen.MainActivity
 
 
 class Contract : AppCompatActivity() {
@@ -40,5 +43,10 @@ class Contract : AppCompatActivity() {
         )
 
         text.setText(spannable, TextView.BufferType.SPANNABLE)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 }

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Car_extra_number63 : AppCompatActivity() {
@@ -13,6 +14,11 @@ class Car_extra_number63 : AppCompatActivity() {
     }
     fun carextrazakonsixthree(view : View) {
         intent = Intent(this, Car_extra_zakon_six_three::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }

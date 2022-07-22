@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Exam_hospital : AppCompatActivity() {
@@ -14,6 +15,11 @@ class Exam_hospital : AppCompatActivity() {
 
     fun carextrazakonseventhree(view : View){
         intent = Intent(this, Car_extra_zakon_seven_three::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }

@@ -34,9 +34,6 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".BycicleProtocolHowTo"
-            android:exported="false" />
-        <activity
             android:name=".ui.notifications.ExtraBycicle5"
             android:exported="false" />
         <activity
