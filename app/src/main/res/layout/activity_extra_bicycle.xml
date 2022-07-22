@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="100dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,19 +19,25 @@
         <Button
             android:id="@+id/before_trip"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
             android:onClick="before"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
             android:text="Перед поездкой" />
 
         <Button
             android:id="@+id/button39"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
             android:text="Во время поездки" />
 
         <LinearLayout
@@ -81,20 +87,26 @@
         <Button
             android:id="@+id/contract"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
             android:onClick="bicyclezaversheniepoesdki"
             android:text="Завершение поездки" />
 
         <Button
             android:id="@+id/zalog"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
             android:onClick="pay"
             android:text="Оплата" />
 

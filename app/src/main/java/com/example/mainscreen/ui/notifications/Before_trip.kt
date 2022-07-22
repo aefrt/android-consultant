@@ -31,4 +31,9 @@ class Before_trip : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun pdd_bicycle(view: View) {
+        intent = Intent(this, Pdd_bicycle::class.java)
+        startActivity(intent)
+    }
+
 }

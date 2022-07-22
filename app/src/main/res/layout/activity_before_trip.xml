@@ -35,6 +35,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
+            android:onClick="pdd_bicycle"
             android:text="ПДД для велосипедистов"
             android:textColor="@color/white"
             android:textSize="14sp"

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.Pdd_bicycle">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="ПДД для велосипедистов"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/end" />
+
+                    <ImageView
+                        android:id="@+id/imageView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="320dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/end_orange" />
+
+                    <ImageView
+                        android:id="@+id/imageView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="235dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/end" />
+
+                    <ImageView
+                        android:id="@+id/imageView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="195dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/end_orange" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="395dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/end" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="35dp"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="160dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/end_orange" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:text="Где допускается движение велосипедистов?"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/textView132"
+                        android:layout_width="match_parent"
+                        android:layout_height="289dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:text="Движение всех велосипедистов старше 14 лет должно осуществляться по велосипедной, велопешеходной дорожкам или полосе для велосипедистов.\n\nЕсли они отсутствуют или по ним невозможно двигаться, либо если ширина велосипеда превышает 1 м (из-за груза или прицепа), либо если велосипедисты едут в колонне - допускается движение по правому краю проезжей части. Если же и это невозможно, допускается движение по обочине.\n\nДвижение по тротуару или пешеходной дорожке допускается лишь в том случае, если все вышеуказанные способы движения невозможны."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Движение по правому краю проезжей части"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="match_parent"
+                        android:layout_height="208dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:text="При движении велосипедистов по правому краю проезжей части велосипедисты должны двигаться только в один ряд друг за другом. Движение в 2 ряда возможно, если ширина каждого из велосипедов не больше 75 см.\n\nКолонна велосипедистов должна быть разделена на группы по 10 человек в случае однорядного движения либо на группы по 10 пар (20 человек) в случае двухрядного движения. Расстояние между группами должно составлять 80 - 100 м."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="77dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Движение по тротуару, пешеходной дорожке, обочине или в пределах пешеходных зон"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView133"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:text="Если движение велосипедиста в указанных выше зонах подвергает опасности или создает помехи для движения иных лиц, велосипедист должен спешиться (слезть с велосипеда на землю) и двигаться дальше по правилам для пешеходов."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Велосипедистам запрещается:"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView134"
+                        android:layout_width="match_parent"
+                        android:layout_height="360dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:text="1) управлять велосипедом, не держась за руль хотя бы одной рукой;
+\n2) перевозить массивный груз, который выступает за пределы велосипеда на 50 см в любую сторону, или мешает управлению;
+\n3) перевозить пассажиров, если это не предусмотрено конструкцией велосипеда;
+\n4) перевозить детей до 7 лет при отсутствии специально оборудованного места;
+\n5) поворачивать налево или разворачиваться на дорогах с трамвайным движением и на дорогах, имеющих более одной полосы для движения (кроме случаев, когда из правой полосы разрешен поворот налево, и за исключением дорог, находящихся в велосипедных зонах);
+\n6) пересекать дорогу по пешеходным переходам сидя на велосипеде;
+\n7) буксировать (сцеплять вместе) велосипеды или велосипедами (разрешена только буксировка прицепа, который специально предназначен для велосипеда)."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Движение в темное время суток или когда очень туманно"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView135"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:text="В темное время суток или в условиях недостаточной видимости велосипедистам рекомендуется иметь при себе предметы со светоотражающими элементами и обеспечивать видимость этих предметов водителями других транспортных средств."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="Взаимодействие с иными участниками движения"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView136"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:text="В велосипедной зоне велосипедисты имеют преимущество перед механическими транспортными средствами, могут двигаться по всей ширине проезжей части, предназначенной для движения в данном направлении (при соблюдении иных требований закона)."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
