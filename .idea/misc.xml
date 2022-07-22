@@ -65,6 +65,7 @@
         <entry key="app/src/main/res/layout/activity_nombertwo_moshennik.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_numbertwo_call_police_double.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_osmotr.xml" value="0.17028985507246377" />
+        <entry key="app/src/main/res/layout/activity_payment.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_pdd611.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_police5.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_police_issues.xml" value="0.24179620034542315" />
@@ -72,13 +73,21 @@
         <entry key="app/src/main/res/layout/activity_policeissues.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_post.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_protocol.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_save.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_send_to_email.xml" value="0.16032608695652173" />
         <entry key="app/src/main/res/layout/activity_sos.xml" value="0.16032608695652173" />
+        <entry key="app/src/main/res/layout/activity_sos_instruct.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_spravochnaya.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_vo_vremy_poezdki.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_vskrytie.xml" value="0.19687676913496374" />
         <entry key="app/src/main/res/layout/activity_vzyatka.xml" value="0.27485833651777625" />
         <entry key="app/src/main/res/layout/activity_vzyatka_dat.xml" value="0.26816125399824503" />
         <entry key="app/src/main/res/layout/activity_vzyatka_vymog.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/activity_why_no_inspector_fine.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_zalog.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_zavershenie_poesdki_pravilno.xml" value="0.42290249433106575" />
+        <entry key="app/src/main/res/layout/activity_zavershenie_poezdki.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/activity_zaveshenie_poezdki_money.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/bribe.xml" value="0.17028985507246377" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/doc_item.xml" value="0.16893115942028986" />

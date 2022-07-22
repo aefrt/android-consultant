@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Zavershenie_poezdki : AppCompatActivity() {
@@ -19,6 +20,11 @@ class Zavershenie_poezdki : AppCompatActivity() {
 
     fun bicyclezaversheniepoesdkimoney(view : View) {
         intent = Intent(this, Zaveshenie_poezdki_money::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }

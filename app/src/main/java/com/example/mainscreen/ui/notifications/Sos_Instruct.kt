@@ -3,9 +3,11 @@ package com.example.mainscreen.ui.notifications
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Sos_Instruct : AppCompatActivity() {
@@ -94,6 +96,11 @@ class Sos_Instruct : AppCompatActivity() {
         }
 
 
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 
 }

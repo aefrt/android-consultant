@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Vo_vremy_poezdki : AppCompatActivity() {
@@ -29,6 +30,11 @@ class Vo_vremy_poezdki : AppCompatActivity() {
 
     fun extra8(view : View){
         intent = Intent(this, ExtraBycicle8::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }

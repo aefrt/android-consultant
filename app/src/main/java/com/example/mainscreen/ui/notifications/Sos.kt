@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 import com.example.mainscreen.databinding.ActivityMainBinding
 
@@ -95,6 +96,11 @@ class Sos : AppCompatActivity() {
         val dialIntent = Intent(Intent.ACTION_DIAL)
         dialIntent.data = Uri.parse("tel:" + "102")
         startActivity(dialIntent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
     }
 
 }

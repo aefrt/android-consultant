@@ -17,6 +17,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 import com.example.mainscreen.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -136,6 +137,11 @@ class PoliceIssues : AppCompatActivity() {
 
     fun vzyatkaDat(view: View) {
         intent = Intent(this, VzyatkaDat::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }

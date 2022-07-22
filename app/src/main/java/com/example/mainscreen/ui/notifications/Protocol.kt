@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.mainscreen.MainActivity
 import com.example.mainscreen.R
 
 class Protocol : AppCompatActivity() {
@@ -14,6 +15,11 @@ class Protocol : AppCompatActivity() {
 
     fun hyper8_4(view : View){
         intent = Intent(this, Hyper8_4::class.java)
+        startActivity(intent)
+    }
+
+    fun goHome(view : View){
+        intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }
