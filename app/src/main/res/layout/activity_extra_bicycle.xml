@@ -111,5 +111,18 @@
             android:onClick="pay"
             android:text="Оплата" />
 
+        <Button
+            android:id="@+id/button39"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="#FAB9B9"
+            android:onClick="extra7"
+            android:text="Я попал в ДТП на арендованном велосипеде, что делать?"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

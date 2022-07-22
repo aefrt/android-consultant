@@ -96,7 +96,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/tree" />
+                        app:srcCompat="@drawable/four" />
 
                     <View
                         android:id="@+id/view10"
@@ -111,7 +111,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/tree" />
+                        app:srcCompat="@drawable/five" />
 
                     <View
                         android:id="@+id/view11"
@@ -126,7 +126,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/tree" />
+                        app:srcCompat="@drawable/six" />
 
                     <View
                         android:id="@+id/view12"
@@ -141,7 +141,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/tree" />
+                        app:srcCompat="@drawable/seven" />
 
                     <View
                         android:id="@+id/view13"
@@ -154,9 +154,9 @@
                     <ImageView
                         android:id="@+id/imageView28"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/tree" />
+                        app:srcCompat="@drawable/e" />
 
                     <View
                         android:id="@+id/view14"
@@ -169,9 +169,9 @@
                     <ImageView
                         android:id="@+id/imageView29"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/tree" />
+                        app:srcCompat="@drawable/nine" />
 
                     <View
                         android:id="@+id/view15"
@@ -184,9 +184,9 @@
                     <ImageView
                         android:id="@+id/imageView30"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="30dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/tree" />
+                        app:srcCompat="@drawable/ten" />
 
                     <View
                         android:id="@+id/view16"
@@ -289,9 +289,11 @@
                     <Button
                         android:id="@+id/button48"
                         android:layout_width="wrap_content"
-                        android:layout_height="28dp"
+                        android:layout_height="35dp"
                         android:layout_marginLeft="120dp"
                         android:layout_weight="1"
+                        android:backgroundTint="#D41313"
+                        android:onClick="call1"
                         android:text="112"
                         android:textSize="8sp" />
 

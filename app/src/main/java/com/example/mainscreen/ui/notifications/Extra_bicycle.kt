@@ -1,6 +1,7 @@
 package com.example.mainscreen.ui.notifications
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -85,4 +86,5 @@ class Extra_bicycle : AppCompatActivity() {
         intent = Intent(this, Zavershenie_poezdki::class.java)
         startActivity(intent)
     }
+
 }

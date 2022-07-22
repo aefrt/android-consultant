@@ -93,7 +93,7 @@ class Sos : AppCompatActivity() {
 
     fun ESS_call4(view: View) {
         val dialIntent = Intent(Intent.ACTION_DIAL)
-        dialIntent.data = Uri.parse("tel:" + "8(495) 623-70-70")
+        dialIntent.data = Uri.parse("tel:" + "102")
         startActivity(dialIntent)
     }
 

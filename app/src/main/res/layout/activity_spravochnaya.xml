@@ -46,7 +46,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:text="О наиболее часто встречающихся правонарушениях и наказаниях за них можно посмотреть по ссылкам (для автомобилистов и велосипедистов)"
+            android:text="О наиболее часто встречающихся правонарушениях и наказаниях за них можно посмотреть по ссылкам (для велосипедистов и автомобилистов)"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
