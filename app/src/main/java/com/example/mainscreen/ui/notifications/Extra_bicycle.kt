@@ -44,6 +44,8 @@ class Extra_bicycle : AppCompatActivity() {
         })*/
     }
 
+
+
     fun pay(view: View) {
         intent = Intent(this, Payment::class.java)
         startActivity(intent)
@@ -51,6 +53,11 @@ class Extra_bicycle : AppCompatActivity() {
 
     fun before(view: View) {
         intent = Intent(this, Before_trip::class.java)
+        startActivity(intent)
+    }
+
+    fun trip(view: View) {
+        intent = Intent(this, Vo_vremy_poezdki::class.java)
         startActivity(intent)
     }
 

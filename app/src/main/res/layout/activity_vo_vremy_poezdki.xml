@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.Before_trip">
+    tools:context=".ui.notifications.Vo_vremy_poezdki">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -22,8 +22,8 @@
             android:layout_height="60dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
-            android:onClick="which_info"
-            android:text="С какой информацией ознакомиться перед началом поездки?"
+            android:onClick="extra5"
+            android:text="Велосипед сломался, что делать?"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -35,8 +35,8 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
-            android:onClick="pdd_bicycle"
-            android:text="ПДД для велосипедистов"
+            android:onClick="extra6"
+            android:text="Велосипед украли во время поездки, что делать?"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="bold" />
@@ -48,9 +48,9 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
-            android:text="Обязательно ли заключать договор?\nВ каком виде?"
+            android:onClick="extra7"
+            android:text="Я попал в ДТП на арендованном велосипеде, что делать?"
             android:textColor="@color/white"
-            android:onClick="contr"
             android:textSize="14sp"
             android:textStyle="bold" />
 
@@ -61,23 +61,11 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
-            android:onClick="need_zalog"
-            android:text="Требуется ли залог?"
+            android:onClick="extra8"
+            android:text="Я нарушил ПДД на арендованном велосипеде, что делать?"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/save"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/roundstyle"
-            android:backgroundTint="#6DAFF4"
-            android:onClick="insurance"
-            android:text="Страховка во время поездки"
-            android:textColor="@color/white"
-            android:textSize="14sp"
-            android:textStyle="bold" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

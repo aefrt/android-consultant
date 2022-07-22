@@ -22,14 +22,14 @@
             android:layout_height="60dp"
             android:background="@drawable/roundstyle"
             android:backgroundTint="#6DAFF4"
-            android:onClick="before"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="bold"
+            android:onClick="before"
             android:text="Перед поездкой" />
 
         <Button
-            android:id="@+id/button39"
+            android:id="@+id/button116"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
@@ -38,9 +38,10 @@
             android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="bold"
+            android:onClick="trip"
             android:text="Во время поездки" />
 
-        <LinearLayout
+        <!--<LinearLayout
             android:layout_width="match_parent"
             android:layout_height="107dp"
             android:orientation="horizontal"
@@ -82,10 +83,10 @@
                 android:text="Я нарушил ПДД на арендованном велосипеде, что делать?"
                 android:onClick="extra8"
                 android:textSize="8sp" />
-        </LinearLayout>
+        </LinearLayout>-->
 
         <Button
-            android:id="@+id/contract"
+            android:id="@+id/button117"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
@@ -98,7 +99,7 @@
             android:text="Завершение поездки" />
 
         <Button
-            android:id="@+id/zalog"
+            android:id="@+id/button118"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
